@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #   'SunbeamLogService' => ['SunbeamLogService/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/SunbeamLogService.h','Pod/Classes/SLog.h'
+  s.public_header_files = 'SunbeamLogService/Classes/SunbeamLogService.h','SunbeamLogService/Classes/SLog.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

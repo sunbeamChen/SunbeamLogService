@@ -19,7 +19,7 @@
   },
   "source_files": "SunbeamLogService/Classes/**/*",
   "public_header_files": [
-    "Pod/Classes/SunbeamLogService.h",
-    "Pod/Classes/SLog.h"
+    "SunbeamLogService/Classes/SunbeamLogService.h",
+    "SunbeamLogService/Classes/SLog.h"
   ]
 }

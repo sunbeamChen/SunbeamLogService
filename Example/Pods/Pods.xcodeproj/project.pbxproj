@@ -10,60 +10,60 @@
 		00F48A28052878290CC8639809F131AA /* category.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CE629284B8344AD966E2432F6B92A51 /* category.c */; };
 		02490E71E6662EA74D4950E38EA73B6C /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A304890B6CA212D4B74B42315EC74 /* event.c */; };
 		05C9CFA0FC5E9D356BFDA7EC45D52C93 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 74EB46756880BC2DCFE845AA6E5DE7CA /* format.c */; };
+		097B1B4EC1169AA53C97DB3528F3665C /* zc_profile.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A1F433E5BE05CC81567C1190249B59 /* zc_profile.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		09917DBB702A6CBC6BE17ABEC540B864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		0AAEDC9CF5A925313CF7BF817E7F563A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		0EDB77A4AA3DFDFDA5386B1D8B160380 /* record_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 393A2818D99F23058CDF1A7AC6542B62 /* record_table.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		109527B05A8BBD41C611AF610F90C0B6 /* zc_arraylist.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C8ADEBF272E92CFF30002A69EC4F28 /* zc_arraylist.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		112FFC3850F4F7D84293EC3C6E2884A5 /* record.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A59783636881CCB2018BD889EA19391 /* record.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		129FAAC3D93ED5A74BBF49EB68097FC6 /* zc_profile.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A1F433E5BE05CC81567C1190249B59 /* zc_profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D444967D7AFE80C56C957E35B30A833 /* category_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 637248DE9977848323D73CAE87CC7B2C /* category_table.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1376009CFDB77EAF8437F026D9DCFE29 /* zlog-chk-conf.c in Sources */ = {isa = PBXBuildFile; fileRef = D20597AD567F87FE7F33C428859DF486 /* zlog-chk-conf.c */; };
-		1EEFA04C81816A206DEDC3F56293A745 /* mdc.h in Headers */ = {isa = PBXBuildFile; fileRef = 96246399CAC3EA123152DFBAFD2B3D81 /* mdc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BF77ACDA41881A406CD2C3C955D3953 /* rotater.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5E48A4B0A80B6BA443F205D30C0F1 /* rotater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		203BDB31DD97CDB90E481F4FAFE94352 /* fmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C24A8854BF8B8C2DDF501D740ED93E25 /* fmacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		240D3779CBE046EF88AE569E79C17EEA /* category.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A570D76E1213EC9DAC958032C42AE0 /* category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2686381709D71674A91203E9DD6E42F7 /* zc_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB5817E3155585AEC3D26B4A945A6B1 /* zc_defs.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		30E33798CFDCA9562ECFB982FA5A029F /* zc_hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA30F3662E7F922B85B53974A4EDE3 /* zc_hashtable.c */; };
-		33C785B35C27186C606D58DCC2EBFC27 /* spec.h in Headers */ = {isa = PBXBuildFile; fileRef = D78D66140A129258AB8B4763EA40F516 /* spec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35B01B1B782504AAE6073A33AED83F06 /* zc_hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE80A55EDDF4C302E5CAE7F3F1BEAA5 /* zc_hashtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3892D067F9314E3B7C4503084908D519 /* category_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 637248DE9977848323D73CAE87CC7B2C /* category_table.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A0E24BCF559657C0F3A3DEA79FC3EFC /* level_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C2118568582C9F707229CCE0D148AA /* level_list.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		338B0FA9C262C701717CE6A2626BE6ED /* zc_xplatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 027B730879C1F83F7B941284CDD041B0 /* zc_xplatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3F2A61CAD63E6DC2232E1A8B99547B30 /* Pods-SunbeamLogService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FDB7C68EA8F0F79BB54952DCEED026 /* Pods-SunbeamLogService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44D46989F7E7173C9F742D29E649970B /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C559092A1947A235595CA01BB0603A7 /* thread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		465D153EB0850DF248E397D06116850E /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C559092A1947A235595CA01BB0603A7 /* thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		468A27CA203F526CD954978A46AD28CC /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B877AE7E373E5694CC5ECCCFE76AA0 /* version.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4A0CEC779124FDBD4F4B9BA96B5AFF71 /* Pods-SunbeamLogService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6809DFD7297CA79105D27B9A558EB75D /* Pods-SunbeamLogService_Example-dummy.m */; };
 		4E7535D57D041E63A5D0557D1134B51B /* record.c in Sources */ = {isa = PBXBuildFile; fileRef = AD1A1C3855B72E6978F746A7AF960AC7 /* record.c */; };
+		5170304FC51B924E0128E531CF048E4E /* level_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C2118568582C9F707229CCE0D148AA /* level_list.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		551A650B48F6D19D7B129682D7F01735 /* zc_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 95CAB42D5D06A45E027572BAF0AC451E /* zc_util.c */; };
+		5C04D0B1F3694918EA9E64B2BCEA774C /* zlog.h in Headers */ = {isa = PBXBuildFile; fileRef = 025184C7476987EC7D71F4FB8E77ABCF /* zlog.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5D984A274776752C226F7DEE844738BD /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = A26E0E8F12F6392E772B887A3BF4F8DD /* thread.c */; };
 		5D9D2FCAC3045915752A5D0E8BB1BDBB /* SLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA254C409842BB175C56022BDDAA6EA /* SLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A99F2A9A660397A8C38780A1B2DA6D /* level.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A5C5E348EB340EBCF74C054B13DF74 /* level.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		671EE5EFF49102EF70BA827BAFE7C33F /* level.c in Sources */ = {isa = PBXBuildFile; fileRef = A1A67DBFB86C6C41B9B3F6A889CFB578 /* level.c */; };
 		680400CB499037C13D28B82BC03EB84F /* category_table.c in Sources */ = {isa = PBXBuildFile; fileRef = FF93D21C65964C182FE880F4D128EBB6 /* category_table.c */; };
 		687AB48D6C71E0696A459111F9884415 /* spec.c in Sources */ = {isa = PBXBuildFile; fileRef = 12A093C07F0CF2FFC533476AAD70E5A5 /* spec.c */; };
 		687BF8C1859B9819A204000048355889 /* zc_arraylist.c in Sources */ = {isa = PBXBuildFile; fileRef = 176A836F0A525C9523504E0A160FFB35 /* zc_arraylist.c */; };
 		6EB2D123A9FC2CFEAF3A341EEB88FD02 /* rule.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DA40CD1C54B2828FA97813C27C2A7B4 /* rule.c */; };
-		7324431DB1656BB412635DC6215E60C6 /* zlog.h in Headers */ = {isa = PBXBuildFile; fileRef = 025184C7476987EC7D71F4FB8E77ABCF /* zlog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		749FB6E47D9F99D093C9EC0AB1B6D4BE /* rotater.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5E48A4B0A80B6BA443F205D30C0F1 /* rotater.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		757F13E67CBF2FC055A5245A39B900EA /* zc_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB5817E3155585AEC3D26B4A945A6B1 /* zc_defs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C816E78E6473CA5014A0D335CE497AC /* SLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB296338530C5B9C633CEAE8C4FC4F0 /* SLog.m */; };
 		7F0029AEA94173B018380A6228471914 /* zlog.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE69F1BF2B9E90C2F076C204B3A046 /* zlog.c */; };
+		81E638E1FA6BB970DC644339D3462E36 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7521B96B718B5F9F858F53950C68BA /* conf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8751DE8D414BFB45BA2AEFF3FD78698A /* zc_arraylist.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C8ADEBF272E92CFF30002A69EC4F28 /* zc_arraylist.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		89C8D5311439CE09E20839A2EACF12DB /* record_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 23ECE94E3FEEDA7A02259E8FA93090DA /* record_table.c */; };
 		8A4CABD4F28731C9C08CFCDBE7B1B220 /* SunbeamLogService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3C6C85B34B945A88E27C5E38F6B6D0 /* SunbeamLogService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		933155E22D23AEED933102A842B024C4 /* level.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A5C5E348EB340EBCF74C054B13DF74 /* level.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		975C93F0CC7CD7DD94B9547CF9CA8F54 /* rule.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7E8A719E94818E6845F79526C89311 /* rule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99B2CA319ABD65F010368F713470665E /* zc_xplatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 027B730879C1F83F7B941284CDD041B0 /* zc_xplatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C2B451E435B325F4D4B0A0E24D44119 /* Pods-SunbeamLogService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE08A21FC9CBCB48C97985EC85F3899 /* Pods-SunbeamLogService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1176AB17610ACCB8C99B7B309CF96AB /* buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DF25333B020D66D394A07B7B481D98 /* buf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FDD7E7F51816B1FAB59744818A800BC /* record.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A59783636881CCB2018BD889EA19391 /* record.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A2BC448DD1EFC414BBBF838B74165845 /* level_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DA1A6F0C0A62D1AA9C3D4DFF2FAA861 /* level_list.c */; };
-		AA6C91BE4EF3079295C8F47AF53FEAE4 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EDA2D470832132BF65F099C27B16BF4 /* format.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABDC08C3636BFD1134F4EEC25B18BCD0 /* fmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C24A8854BF8B8C2DDF501D740ED93E25 /* fmacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B15877C4315A1261CF99773DC78996D2 /* zc_util.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A123EE09AB82F54DC1108F36795F4 /* zc_util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7633B904B609D2EF7B1598E3307B95D /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FD5960C0ABA0DB2AE3B3D6CA6C2A64 /* event.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD4EF25404CC140B6CEB4A6B127B8A37 /* buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DF25333B020D66D394A07B7B481D98 /* buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B7F4A993C4D93E6306978C76AEA89D56 /* zc_profile.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F7779D2BF1E3A5EB0E0BF192D6AF07E /* zc_profile.c */; };
 		B83B54C6627C9DA5D448A485AC08529C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		B86858F4C53AB366C1EFC45BEBAB1906 /* mdc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B1DBF9FF574B6BC1F2F7002C759F546 /* mdc.c */; };
+		B9C7D7B0D9A89097B55B231C0407A958 /* rule.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7E8A719E94818E6845F79526C89311 /* rule.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C4F59A28FFEEDF8722071EF749D9B418 /* SunbeamLogService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0126BAC3A52C3415B74463835B90A1 /* SunbeamLogService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C80F9C6E454D0959D2A03738D367810A /* Pods-SunbeamLogService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBEEF8DB15212F9848CD4A5EEB20839 /* Pods-SunbeamLogService_Tests-dummy.m */; };
-		CA12D4382CEFA3EA1470D8BED1C72C3B /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B877AE7E373E5694CC5ECCCFE76AA0 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DDD6D7D3D6F01E4FB4B03CB8573978 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EDA2D470832132BF65F099C27B16BF4 /* format.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9E06A5344995FCC82BA0E2A93E0F172 /* zc_hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE80A55EDDF4C302E5CAE7F3F1BEAA5 /* zc_hashtable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1A7E1F34A7C1BB64E18849E99215EDC /* zc_util.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A123EE09AB82F54DC1108F36795F4 /* zc_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D3038F8A86F07C24E79C8B96B8EAF4C2 /* SunbeamLogService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B12B1393139F6C4F20BD488BB7F96B3 /* SunbeamLogService-dummy.m */; };
 		D7DC3041AB5EC7852C0A21ADE03481C1 /* buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A5AD90031C002CE42C60A00AA05B629 /* buf.c */; };
-		D90A308E74F761C5E9F7FC26FCD20056 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FD5960C0ABA0DB2AE3B3D6CA6C2A64 /* event.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC2B78F7D590082B1B9A9898683C6F1B /* rotater.c in Sources */ = {isa = PBXBuildFile; fileRef = 27ADE7238C22F6F741F2B7AF9E214DF1 /* rotater.c */; };
-		EFDB64F9E7EDFFC2DA224CE09C10D662 /* category.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A570D76E1213EC9DAC958032C42AE0 /* category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF837F5BC1824037C3B1159C0CDD1C49 /* record_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 393A2818D99F23058CDF1A7AC6542B62 /* record_table.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E689365AE40C2656839E1627B5EDB247 /* spec.h in Headers */ = {isa = PBXBuildFile; fileRef = D78D66140A129258AB8B4763EA40F516 /* spec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E74D9A2FB253E607AFED6C12A7994798 /* mdc.h in Headers */ = {isa = PBXBuildFile; fileRef = 96246399CAC3EA123152DFBAFD2B3D81 /* mdc.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F0387E28955DD27E97741CC0D2A480C0 /* conf.c in Sources */ = {isa = PBXBuildFile; fileRef = F86A07005C704D477C36ADCABB54C022 /* conf.c */; };
-		FF2F243FBA885EB944F2476A888FED32 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7521B96B718B5F9F858F53950C68BA /* conf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -386,33 +386,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1176AB17610ACCB8C99B7B309CF96AB /* buf.h in Headers */,
-				EFDB64F9E7EDFFC2DA224CE09C10D662 /* category.h in Headers */,
-				3892D067F9314E3B7C4503084908D519 /* category_table.h in Headers */,
-				FF2F243FBA885EB944F2476A888FED32 /* conf.h in Headers */,
-				D90A308E74F761C5E9F7FC26FCD20056 /* event.h in Headers */,
-				ABDC08C3636BFD1134F4EEC25B18BCD0 /* fmacros.h in Headers */,
-				AA6C91BE4EF3079295C8F47AF53FEAE4 /* format.h in Headers */,
-				933155E22D23AEED933102A842B024C4 /* level.h in Headers */,
-				3A0E24BCF559657C0F3A3DEA79FC3EFC /* level_list.h in Headers */,
-				1EEFA04C81816A206DEDC3F56293A745 /* mdc.h in Headers */,
-				112FFC3850F4F7D84293EC3C6E2884A5 /* record.h in Headers */,
-				0EDB77A4AA3DFDFDA5386B1D8B160380 /* record_table.h in Headers */,
-				749FB6E47D9F99D093C9EC0AB1B6D4BE /* rotater.h in Headers */,
-				975C93F0CC7CD7DD94B9547CF9CA8F54 /* rule.h in Headers */,
+				AD4EF25404CC140B6CEB4A6B127B8A37 /* buf.h in Headers */,
+				240D3779CBE046EF88AE569E79C17EEA /* category.h in Headers */,
+				0D444967D7AFE80C56C957E35B30A833 /* category_table.h in Headers */,
+				81E638E1FA6BB970DC644339D3462E36 /* conf.h in Headers */,
+				A7633B904B609D2EF7B1598E3307B95D /* event.h in Headers */,
+				203BDB31DD97CDB90E481F4FAFE94352 /* fmacros.h in Headers */,
+				C8DDD6D7D3D6F01E4FB4B03CB8573978 /* format.h in Headers */,
+				64A99F2A9A660397A8C38780A1B2DA6D /* level.h in Headers */,
+				5170304FC51B924E0128E531CF048E4E /* level_list.h in Headers */,
+				E74D9A2FB253E607AFED6C12A7994798 /* mdc.h in Headers */,
+				9FDD7E7F51816B1FAB59744818A800BC /* record.h in Headers */,
+				DF837F5BC1824037C3B1159C0CDD1C49 /* record_table.h in Headers */,
+				1BF77ACDA41881A406CD2C3C955D3953 /* rotater.h in Headers */,
+				B9C7D7B0D9A89097B55B231C0407A958 /* rule.h in Headers */,
 				5D9D2FCAC3045915752A5D0E8BB1BDBB /* SLog.h in Headers */,
-				33C785B35C27186C606D58DCC2EBFC27 /* spec.h in Headers */,
+				E689365AE40C2656839E1627B5EDB247 /* spec.h in Headers */,
 				C4F59A28FFEEDF8722071EF749D9B418 /* SunbeamLogService-umbrella.h in Headers */,
 				8A4CABD4F28731C9C08CFCDBE7B1B220 /* SunbeamLogService.h in Headers */,
-				44D46989F7E7173C9F742D29E649970B /* thread.h in Headers */,
-				CA12D4382CEFA3EA1470D8BED1C72C3B /* version.h in Headers */,
-				109527B05A8BBD41C611AF610F90C0B6 /* zc_arraylist.h in Headers */,
-				757F13E67CBF2FC055A5245A39B900EA /* zc_defs.h in Headers */,
-				35B01B1B782504AAE6073A33AED83F06 /* zc_hashtable.h in Headers */,
-				129FAAC3D93ED5A74BBF49EB68097FC6 /* zc_profile.h in Headers */,
-				B15877C4315A1261CF99773DC78996D2 /* zc_util.h in Headers */,
-				99B2CA319ABD65F010368F713470665E /* zc_xplatform.h in Headers */,
-				7324431DB1656BB412635DC6215E60C6 /* zlog.h in Headers */,
+				465D153EB0850DF248E397D06116850E /* thread.h in Headers */,
+				468A27CA203F526CD954978A46AD28CC /* version.h in Headers */,
+				8751DE8D414BFB45BA2AEFF3FD78698A /* zc_arraylist.h in Headers */,
+				2686381709D71674A91203E9DD6E42F7 /* zc_defs.h in Headers */,
+				C9E06A5344995FCC82BA0E2A93E0F172 /* zc_hashtable.h in Headers */,
+				097B1B4EC1169AA53C97DB3528F3665C /* zc_profile.h in Headers */,
+				D1A7E1F34A7C1BB64E18849E99215EDC /* zc_util.h in Headers */,
+				338B0FA9C262C701717CE6A2626BE6ED /* zc_xplatform.h in Headers */,
+				5C04D0B1F3694918EA9E64B2BCEA774C /* zlog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
