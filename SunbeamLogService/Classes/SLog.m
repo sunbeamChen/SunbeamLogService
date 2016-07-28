@@ -34,14 +34,25 @@
 + (int) initSLogService:(BOOL) logOn
 {
     int result;
+    zlog_category_t *zc;
+    
+    // 获取zlog.conf文件路径
+    NSString* logConfPath = [[NSBundle mainBundle] pathForResource:@"zlog" ofType:@"conf"];
     
     // 初始化ZLog服务
-    result = zlog_init("zlog.conf");
+    result = zlog_init([logConfPath UTF8String]);
     
     if (result == -1) {
         NSLog(@"Sunbeam Log Service %@ init failed", SLOG_VERSION);
     } else if (result == 0) {
         [self SLog:@"Sunbeam Log Service %@ init success", SLOG_VERSION];
+    }
+    
+    zc = zlog_get_category("slog_cat");
+    if (!zc) {
+        NSLog(@"slog get cat fail");
+        zlog_fini();
+        return -2;
     }
     
     // DEBUG时日志开关

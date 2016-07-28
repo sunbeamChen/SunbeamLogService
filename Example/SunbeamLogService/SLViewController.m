@@ -20,9 +20,7 @@
 {
     [super viewDidLoad];
 	
-    [SLog getSLogVersion];
-    
-    [SLog SLog:@"这是一个测试"];
+    [SLog initSLogService:YES];
 }
 
 - (void)didReceiveMemoryWarning
