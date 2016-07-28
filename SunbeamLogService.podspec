@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SunbeamLogService/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SunbeamLogService' => ['SunbeamLogService/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SunbeamLogService' => ['SunbeamLogService/Classes/SLog.bundle']
+  }
 
   s.public_header_files = 'SunbeamLogService/Classes/SunbeamLogService.h','SunbeamLogService/Classes/SLog.h'
   # s.frameworks = 'UIKit', 'MapKit'
