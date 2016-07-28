@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SunbeamLogService_Example' do
+  pod 'SunbeamLogService', :path => '../'
+
+  target 'SunbeamLogService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
