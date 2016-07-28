@@ -10,7 +10,7 @@
 
 #import "Zlog/zlog.h"
 
-#define SLOG_VERSION @"0.1.0"
+#define SLOG_VERSION @"0.1.1"
 
 #ifdef DEBUG
     static BOOL isLogOn = YES;
@@ -25,22 +25,29 @@
 @implementation SLog
 
 /**
- *  获取SLog版本号
+ *  初始化SLog服务
  *
- *  @return SLog版本号
+ *  @param logOff DEBUG时日志是否关闭
+ *
+ *  @return 初始化结果 0－成功；-1－失败
  */
-+ (NSString *) getSLogVersion
++ (int) initSLogService:(BOOL) logOn
 {
-    [self SLog:@"Sunbeam Log service %@ (based on ZLog)", SLOG_VERSION];
-    return SLOG_VERSION;
-}
-
-/**
- *  关闭日志输出
- */
-+ (void) switchLogOff
-{
-    isLogOn = NO;
+    int result;
+    
+    // 初始化ZLog服务
+    result = zlog_init("zlog.conf");
+    
+    if (result == -1) {
+        NSLog(@"Sunbeam Log Service %@ init failed", SLOG_VERSION);
+    } else if (result == 0) {
+        [self SLog:@"Sunbeam Log Service %@ init success", SLOG_VERSION];
+    }
+    
+    // DEBUG时日志开关
+    isLogOn = logOn;
+    
+    return result;
 }
 
 /**

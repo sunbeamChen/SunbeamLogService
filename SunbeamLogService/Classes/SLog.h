@@ -8,19 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 @interface SLog : NSObject
 
 /**
- *  获取SLog版本号
- *
- *  @return SLog版本号
- */
-+ (NSString *) getSLogVersion;
-
-/**
- *  关闭日志输出，该开关只作用于SLog普通输出，对于Warn、Error该开关不起作用
- */
-+ (void) switchLogOff;
+*  初始化SLog服务
+*
+*  @param logOn DEBUG时日志是否开启
+*
+*  @return 初始化结果 0－成功；-1－失败
+*/
++ (int) initSLogService:(BOOL) logOn;
 
 /**
  *  Info级别日志打印

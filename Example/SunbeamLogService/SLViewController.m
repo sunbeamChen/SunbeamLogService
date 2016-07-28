@@ -8,6 +8,8 @@
 
 #import "SLViewController.h"
 
+#import <SunbeamLogService/SunbeamLogService.h>
+
 @interface SLViewController ()
 
 @end
@@ -17,7 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [SLog getSLogVersion];
+    
+    [SLog SLog:@"这是一个测试"];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,5 +1,5 @@
 PODS:
-  - SunbeamLogService (0.1.0)
+  - SunbeamLogService (0.1.1)
 
 DEPENDENCIES:
   - SunbeamLogService (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SunbeamLogService: 96e5680d331d0c66e9e75a9733b1d0f2c6725c9e
+  SunbeamLogService: 7cd10f5c94e2895290be9e140475fc2b98dc9e52
 
 PODFILE CHECKSUM: 35184d9768357a1ab54f7a6fa127c0a0b2898785
 
