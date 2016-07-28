@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F48A28052878290CC8639809F131AA /* category.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CE629284B8344AD966E2432F6B92A51 /* category.c */; };
+		02490E71E6662EA74D4950E38EA73B6C /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A304890B6CA212D4B74B42315EC74 /* event.c */; };
+		05C9CFA0FC5E9D356BFDA7EC45D52C93 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 74EB46756880BC2DCFE845AA6E5DE7CA /* format.c */; };
+		09917DBB702A6CBC6BE17ABEC540B864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0AAEDC9CF5A925313CF7BF817E7F563A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0EDB77A4AA3DFDFDA5386B1D8B160380 /* record_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 393A2818D99F23058CDF1A7AC6542B62 /* record_table.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		109527B05A8BBD41C611AF610F90C0B6 /* zc_arraylist.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C8ADEBF272E92CFF30002A69EC4F28 /* zc_arraylist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		112FFC3850F4F7D84293EC3C6E2884A5 /* record.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A59783636881CCB2018BD889EA19391 /* record.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		129FAAC3D93ED5A74BBF49EB68097FC6 /* zc_profile.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A1F433E5BE05CC81567C1190249B59 /* zc_profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1376009CFDB77EAF8437F026D9DCFE29 /* zlog-chk-conf.c in Sources */ = {isa = PBXBuildFile; fileRef = D20597AD567F87FE7F33C428859DF486 /* zlog-chk-conf.c */; };
+		1EEFA04C81816A206DEDC3F56293A745 /* mdc.h in Headers */ = {isa = PBXBuildFile; fileRef = 96246399CAC3EA123152DFBAFD2B3D81 /* mdc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30E33798CFDCA9562ECFB982FA5A029F /* zc_hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA30F3662E7F922B85B53974A4EDE3 /* zc_hashtable.c */; };
+		33C785B35C27186C606D58DCC2EBFC27 /* spec.h in Headers */ = {isa = PBXBuildFile; fileRef = D78D66140A129258AB8B4763EA40F516 /* spec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35B01B1B782504AAE6073A33AED83F06 /* zc_hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE80A55EDDF4C302E5CAE7F3F1BEAA5 /* zc_hashtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3892D067F9314E3B7C4503084908D519 /* category_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 637248DE9977848323D73CAE87CC7B2C /* category_table.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A0E24BCF559657C0F3A3DEA79FC3EFC /* level_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C2118568582C9F707229CCE0D148AA /* level_list.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2A61CAD63E6DC2232E1A8B99547B30 /* Pods-SunbeamLogService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FDB7C68EA8F0F79BB54952DCEED026 /* Pods-SunbeamLogService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D46989F7E7173C9F742D29E649970B /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C559092A1947A235595CA01BB0603A7 /* thread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A0CEC779124FDBD4F4B9BA96B5AFF71 /* Pods-SunbeamLogService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6809DFD7297CA79105D27B9A558EB75D /* Pods-SunbeamLogService_Example-dummy.m */; };
+		4E7535D57D041E63A5D0557D1134B51B /* record.c in Sources */ = {isa = PBXBuildFile; fileRef = AD1A1C3855B72E6978F746A7AF960AC7 /* record.c */; };
+		551A650B48F6D19D7B129682D7F01735 /* zc_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 95CAB42D5D06A45E027572BAF0AC451E /* zc_util.c */; };
+		5D984A274776752C226F7DEE844738BD /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = A26E0E8F12F6392E772B887A3BF4F8DD /* thread.c */; };
+		5D9D2FCAC3045915752A5D0E8BB1BDBB /* SLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA254C409842BB175C56022BDDAA6EA /* SLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		671EE5EFF49102EF70BA827BAFE7C33F /* level.c in Sources */ = {isa = PBXBuildFile; fileRef = A1A67DBFB86C6C41B9B3F6A889CFB578 /* level.c */; };
+		680400CB499037C13D28B82BC03EB84F /* category_table.c in Sources */ = {isa = PBXBuildFile; fileRef = FF93D21C65964C182FE880F4D128EBB6 /* category_table.c */; };
+		687AB48D6C71E0696A459111F9884415 /* spec.c in Sources */ = {isa = PBXBuildFile; fileRef = 12A093C07F0CF2FFC533476AAD70E5A5 /* spec.c */; };
+		687BF8C1859B9819A204000048355889 /* zc_arraylist.c in Sources */ = {isa = PBXBuildFile; fileRef = 176A836F0A525C9523504E0A160FFB35 /* zc_arraylist.c */; };
+		6EB2D123A9FC2CFEAF3A341EEB88FD02 /* rule.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DA40CD1C54B2828FA97813C27C2A7B4 /* rule.c */; };
+		7324431DB1656BB412635DC6215E60C6 /* zlog.h in Headers */ = {isa = PBXBuildFile; fileRef = 025184C7476987EC7D71F4FB8E77ABCF /* zlog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749FB6E47D9F99D093C9EC0AB1B6D4BE /* rotater.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA5E48A4B0A80B6BA443F205D30C0F1 /* rotater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		757F13E67CBF2FC055A5245A39B900EA /* zc_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB5817E3155585AEC3D26B4A945A6B1 /* zc_defs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C816E78E6473CA5014A0D335CE497AC /* SLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB296338530C5B9C633CEAE8C4FC4F0 /* SLog.m */; };
+		7F0029AEA94173B018380A6228471914 /* zlog.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE69F1BF2B9E90C2F076C204B3A046 /* zlog.c */; };
+		89C8D5311439CE09E20839A2EACF12DB /* record_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 23ECE94E3FEEDA7A02259E8FA93090DA /* record_table.c */; };
+		8A4CABD4F28731C9C08CFCDBE7B1B220 /* SunbeamLogService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3C6C85B34B945A88E27C5E38F6B6D0 /* SunbeamLogService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933155E22D23AEED933102A842B024C4 /* level.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A5C5E348EB340EBCF74C054B13DF74 /* level.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975C93F0CC7CD7DD94B9547CF9CA8F54 /* rule.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7E8A719E94818E6845F79526C89311 /* rule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99B2CA319ABD65F010368F713470665E /* zc_xplatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 027B730879C1F83F7B941284CDD041B0 /* zc_xplatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2B451E435B325F4D4B0A0E24D44119 /* Pods-SunbeamLogService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE08A21FC9CBCB48C97985EC85F3899 /* Pods-SunbeamLogService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1176AB17610ACCB8C99B7B309CF96AB /* buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DF25333B020D66D394A07B7B481D98 /* buf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2BC448DD1EFC414BBBF838B74165845 /* level_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DA1A6F0C0A62D1AA9C3D4DFF2FAA861 /* level_list.c */; };
+		AA6C91BE4EF3079295C8F47AF53FEAE4 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EDA2D470832132BF65F099C27B16BF4 /* format.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABDC08C3636BFD1134F4EEC25B18BCD0 /* fmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C24A8854BF8B8C2DDF501D740ED93E25 /* fmacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15877C4315A1261CF99773DC78996D2 /* zc_util.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A123EE09AB82F54DC1108F36795F4 /* zc_util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7F4A993C4D93E6306978C76AEA89D56 /* zc_profile.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F7779D2BF1E3A5EB0E0BF192D6AF07E /* zc_profile.c */; };
+		B83B54C6627C9DA5D448A485AC08529C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B86858F4C53AB366C1EFC45BEBAB1906 /* mdc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B1DBF9FF574B6BC1F2F7002C759F546 /* mdc.c */; };
+		C4F59A28FFEEDF8722071EF749D9B418 /* SunbeamLogService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0126BAC3A52C3415B74463835B90A1 /* SunbeamLogService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C80F9C6E454D0959D2A03738D367810A /* Pods-SunbeamLogService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBEEF8DB15212F9848CD4A5EEB20839 /* Pods-SunbeamLogService_Tests-dummy.m */; };
+		CA12D4382CEFA3EA1470D8BED1C72C3B /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B877AE7E373E5694CC5ECCCFE76AA0 /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3038F8A86F07C24E79C8B96B8EAF4C2 /* SunbeamLogService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B12B1393139F6C4F20BD488BB7F96B3 /* SunbeamLogService-dummy.m */; };
+		D7DC3041AB5EC7852C0A21ADE03481C1 /* buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A5AD90031C002CE42C60A00AA05B629 /* buf.c */; };
+		D90A308E74F761C5E9F7FC26FCD20056 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FD5960C0ABA0DB2AE3B3D6CA6C2A64 /* event.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2B78F7D590082B1B9A9898683C6F1B /* rotater.c in Sources */ = {isa = PBXBuildFile; fileRef = 27ADE7238C22F6F741F2B7AF9E214DF1 /* rotater.c */; };
+		EFDB64F9E7EDFFC2DA224CE09C10D662 /* category.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A570D76E1213EC9DAC958032C42AE0 /* category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0387E28955DD27E97741CC0D2A480C0 /* conf.c in Sources */ = {isa = PBXBuildFile; fileRef = F86A07005C704D477C36ADCABB54C022 /* conf.c */; };
+		FF2F243FBA885EB944F2476A888FED32 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7521B96B718B5F9F858F53950C68BA /* conf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A18548A328FA76BE0B87AF2F5A9F79B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FD109BE72141D70903D58652FE52CA;
+			remoteInfo = SunbeamLogService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A5C5E348EB340EBCF74C054B13DF74 /* level.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = level.h; sourceTree = "<group>"; };
+		025184C7476987EC7D71F4FB8E77ABCF /* zlog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zlog.h; sourceTree = "<group>"; };
+		027B730879C1F83F7B941284CDD041B0 /* zc_xplatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_xplatform.h; sourceTree = "<group>"; };
+		09B877AE7E373E5694CC5ECCCFE76AA0 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		12A093C07F0CF2FFC533476AAD70E5A5 /* spec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = spec.c; sourceTree = "<group>"; };
+		15C2118568582C9F707229CCE0D148AA /* level_list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = level_list.h; sourceTree = "<group>"; };
+		1680E9F5DC686E6A5198427C27174CC3 /* Pods_SunbeamLogService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunbeamLogService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		176A836F0A525C9523504E0A160FFB35 /* zc_arraylist.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_arraylist.c; sourceTree = "<group>"; };
+		1A0126BAC3A52C3415B74463835B90A1 /* SunbeamLogService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SunbeamLogService-umbrella.h"; sourceTree = "<group>"; };
+		1BEE33C56E7C58E080D0114673773863 /* SunbeamLogService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SunbeamLogService.xcconfig; sourceTree = "<group>"; };
+		215E610F59A9DF62CAA69105AE7C5ABD /* Pods-SunbeamLogService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunbeamLogService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23ECE94E3FEEDA7A02259E8FA93090DA /* record_table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = record_table.c; sourceTree = "<group>"; };
+		27ADE7238C22F6F741F2B7AF9E214DF1 /* rotater.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rotater.c; sourceTree = "<group>"; };
+		2C2A304890B6CA212D4B74B42315EC74 /* event.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = event.c; sourceTree = "<group>"; };
+		2FA254C409842BB175C56022BDDAA6EA /* SLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLog.h; sourceTree = "<group>"; };
+		3774F311EE7CCC0C2CBEA04F5046A4C4 /* SunbeamLogService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SunbeamLogService-prefix.pch"; sourceTree = "<group>"; };
+		393A2818D99F23058CDF1A7AC6542B62 /* record_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = record_table.h; sourceTree = "<group>"; };
+		393FC626EDD9D9E8F479CEAFE8809041 /* Pods-SunbeamLogService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunbeamLogService_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3A5AD90031C002CE42C60A00AA05B629 /* buf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = buf.c; sourceTree = "<group>"; };
+		3FE80A55EDDF4C302E5CAE7F3F1BEAA5 /* zc_hashtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_hashtable.h; sourceTree = "<group>"; };
+		43433C8B1A7305EC18FE22296215BC7C /* Pods-SunbeamLogService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunbeamLogService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		476058247914405AE35AB6C681372564 /* Pods-SunbeamLogService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunbeamLogService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		48FDB7C68EA8F0F79BB54952DCEED026 /* Pods-SunbeamLogService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunbeamLogService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4B12B1393139F6C4F20BD488BB7F96B3 /* SunbeamLogService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SunbeamLogService-dummy.m"; sourceTree = "<group>"; };
+		4CB5817E3155585AEC3D26B4A945A6B1 /* zc_defs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_defs.h; sourceTree = "<group>"; };
+		4CBF3265B0FE2F24E86C0D9E8C1AE6D1 /* Pods-SunbeamLogService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunbeamLogService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DA1A6F0C0A62D1AA9C3D4DFF2FAA861 /* level_list.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = level_list.c; sourceTree = "<group>"; };
+		4DA40CD1C54B2828FA97813C27C2A7B4 /* rule.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rule.c; sourceTree = "<group>"; };
+		50A1F433E5BE05CC81567C1190249B59 /* zc_profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_profile.h; sourceTree = "<group>"; };
+		57DF25333B020D66D394A07B7B481D98 /* buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buf.h; sourceTree = "<group>"; };
+		5BEFC03AEDEF8304814891FEC6458CD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBEEF8DB15212F9848CD4A5EEB20839 /* Pods-SunbeamLogService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunbeamLogService_Tests-dummy.m"; sourceTree = "<group>"; };
+		637248DE9977848323D73CAE87CC7B2C /* category_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = category_table.h; sourceTree = "<group>"; };
+		6809DFD7297CA79105D27B9A558EB75D /* Pods-SunbeamLogService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunbeamLogService_Example-dummy.m"; sourceTree = "<group>"; };
+		6B1DBF9FF574B6BC1F2F7002C759F546 /* mdc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = mdc.c; sourceTree = "<group>"; };
+		6CAA30F3662E7F922B85B53974A4EDE3 /* zc_hashtable.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_hashtable.c; sourceTree = "<group>"; };
+		6DBE69F1BF2B9E90C2F076C204B3A046 /* zlog.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zlog.c; sourceTree = "<group>"; };
+		74EB46756880BC2DCFE845AA6E5DE7CA /* format.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = format.c; sourceTree = "<group>"; };
+		74FD5960C0ABA0DB2AE3B3D6CA6C2A64 /* event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		83737DEF9EBA9D2D5B8FD767D2928C62 /* Pods-SunbeamLogService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunbeamLogService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		847CD06E42FAFAF88ED1B41B384FDD3B /* Pods_SunbeamLogService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunbeamLogService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A570D76E1213EC9DAC958032C42AE0 /* category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = category.h; sourceTree = "<group>"; };
+		8A59783636881CCB2018BD889EA19391 /* record.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = record.h; sourceTree = "<group>"; };
+		8EDA2D470832132BF65F099C27B16BF4 /* format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = format.h; sourceTree = "<group>"; };
+		8F7E8A719E94818E6845F79526C89311 /* rule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rule.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CAB42D5D06A45E027572BAF0AC451E /* zc_util.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_util.c; sourceTree = "<group>"; };
+		96246399CAC3EA123152DFBAFD2B3D81 /* mdc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mdc.h; sourceTree = "<group>"; };
+		9A7521B96B718B5F9F858F53950C68BA /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		9AA5E48A4B0A80B6BA443F205D30C0F1 /* rotater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rotater.h; sourceTree = "<group>"; };
+		9C559092A1947A235595CA01BB0603A7 /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		9CE629284B8344AD966E2432F6B92A51 /* category.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = category.c; sourceTree = "<group>"; };
+		9D3C6C85B34B945A88E27C5E38F6B6D0 /* SunbeamLogService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SunbeamLogService.h; sourceTree = "<group>"; };
+		9F7779D2BF1E3A5EB0E0BF192D6AF07E /* zc_profile.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_profile.c; sourceTree = "<group>"; };
+		A00A123EE09AB82F54DC1108F36795F4 /* zc_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_util.h; sourceTree = "<group>"; };
+		A1A67DBFB86C6C41B9B3F6A889CFB578 /* level.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = level.c; sourceTree = "<group>"; };
+		A26E0E8F12F6392E772B887A3BF4F8DD /* thread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
+		A287D7D9793066E323D4A82617F2357F /* Pods-SunbeamLogService_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunbeamLogService_Tests-resources.sh"; sourceTree = "<group>"; };
+		A74309BAB7F79C9030DEBDF12FD1B367 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1A1C3855B72E6978F746A7AF960AC7 /* record.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = record.c; sourceTree = "<group>"; };
+		B460C714466A87C33DE088B3480E2965 /* Pods-SunbeamLogService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SunbeamLogService_Example.modulemap"; sourceTree = "<group>"; };
+		B8FD057B32CD13BD6704EF61D6AE6DE2 /* SunbeamLogService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SunbeamLogService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99EA77E6B8D3ED719DF0EC5ACEDD0C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2906D8319EB0D69AE8482392D5CCBC /* Pods-SunbeamLogService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunbeamLogService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C24A8854BF8B8C2DDF501D740ED93E25 /* fmacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fmacros.h; sourceTree = "<group>"; };
+		CCB296338530C5B9C633CEAE8C4FC4F0 /* SLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLog.m; sourceTree = "<group>"; };
+		CD92379AA9E39B4D5A7A9E7F1F958124 /* Pods-SunbeamLogService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SunbeamLogService_Tests.modulemap"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D20597AD567F87FE7F33C428859DF486 /* zlog-chk-conf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "zlog-chk-conf.c"; sourceTree = "<group>"; };
+		D404986301EA978D9E089A7C5C948587 /* Pods-SunbeamLogService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunbeamLogService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C797208E0C8C89D94DAACE35BDA8E7 /* Pods-SunbeamLogService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunbeamLogService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D78D66140A129258AB8B4763EA40F516 /* spec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = spec.h; sourceTree = "<group>"; };
+		DA2C194CEBFD4E2751975C3D2CA97858 /* SunbeamLogService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SunbeamLogService.modulemap; sourceTree = "<group>"; };
+		DBE08A21FC9CBCB48C97985EC85F3899 /* Pods-SunbeamLogService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunbeamLogService_Example-umbrella.h"; sourceTree = "<group>"; };
+		DD6652688A3D6DDA8B5E95D213ADFBB1 /* Pods-SunbeamLogService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunbeamLogService_Example-resources.sh"; sourceTree = "<group>"; };
+		F06A6A88CBBF644953810F7946BC62B8 /* Pods-SunbeamLogService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunbeamLogService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1C8ADEBF272E92CFF30002A69EC4F28 /* zc_arraylist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_arraylist.h; sourceTree = "<group>"; };
+		F86A07005C704D477C36ADCABB54C022 /* conf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = conf.c; sourceTree = "<group>"; };
+		FF93D21C65964C182FE880F4D128EBB6 /* category_table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = category_table.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217B48DE1EBFE539B4CFC825349044F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAEDC9CF5A925313CF7BF817E7F563A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C9389A7A0774F73003A9F466309923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09917DBB702A6CBC6BE17ABEC540B864 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE32FCB11E4BDCB7092AF3239DC47E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83B54C6627C9DA5D448A485AC08529C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A930E4868AC0E06D4841499CD8649C /* Pods-SunbeamLogService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A74309BAB7F79C9030DEBDF12FD1B367 /* Info.plist */,
+				B460C714466A87C33DE088B3480E2965 /* Pods-SunbeamLogService_Example.modulemap */,
+				215E610F59A9DF62CAA69105AE7C5ABD /* Pods-SunbeamLogService_Example-acknowledgements.markdown */,
+				F06A6A88CBBF644953810F7946BC62B8 /* Pods-SunbeamLogService_Example-acknowledgements.plist */,
+				6809DFD7297CA79105D27B9A558EB75D /* Pods-SunbeamLogService_Example-dummy.m */,
+				BA2906D8319EB0D69AE8482392D5CCBC /* Pods-SunbeamLogService_Example-frameworks.sh */,
+				DD6652688A3D6DDA8B5E95D213ADFBB1 /* Pods-SunbeamLogService_Example-resources.sh */,
+				DBE08A21FC9CBCB48C97985EC85F3899 /* Pods-SunbeamLogService_Example-umbrella.h */,
+				D404986301EA978D9E089A7C5C948587 /* Pods-SunbeamLogService_Example.debug.xcconfig */,
+				D6C797208E0C8C89D94DAACE35BDA8E7 /* Pods-SunbeamLogService_Example.release.xcconfig */,
+			);
+			name = "Pods-SunbeamLogService_Example";
+			path = "Target Support Files/Pods-SunbeamLogService_Example";
+			sourceTree = "<group>";
+		};
+		26A21352D7CCD47A84DDFBEBBD555BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847CD06E42FAFAF88ED1B41B384FDD3B /* Pods_SunbeamLogService_Example.framework */,
+				1680E9F5DC686E6A5198427C27174CC3 /* Pods_SunbeamLogService_Tests.framework */,
+				B8FD057B32CD13BD6704EF61D6AE6DE2 /* SunbeamLogService.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7218608E1031B16CBCD800F9E91232A6 /* SunbeamLogService */ = {
+			isa = PBXGroup;
+			children = (
+				8569E6C766B6623B33562C49D958CC38 /* SunbeamLogService */,
+				FF40D5807B647F6D2CE45AA0595FFFAB /* Support Files */,
+			);
+			name = SunbeamLogService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FCC723E222525CDF79054D1578CDD096 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				26A21352D7CCD47A84DDFBEBBD555BFE /* Products */,
+				819A20C498E9F5C913B902A2A48B8860 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		819A20C498E9F5C913B902A2A48B8860 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A930E4868AC0E06D4841499CD8649C /* Pods-SunbeamLogService_Example */,
+				A0600F75F2CA2734214491EF688B842F /* Pods-SunbeamLogService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		81B36BE68D614079C3BE510650594508 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2FA254C409842BB175C56022BDDAA6EA /* SLog.h */,
+				CCB296338530C5B9C633CEAE8C4FC4F0 /* SLog.m */,
+				9D3C6C85B34B945A88E27C5E38F6B6D0 /* SunbeamLogService.h */,
+				BBF7AF69801D30D96FB55137BD88CA5F /* Zlog */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8569E6C766B6623B33562C49D958CC38 /* SunbeamLogService */ = {
+			isa = PBXGroup;
+			children = (
+				81B36BE68D614079C3BE510650594508 /* Classes */,
+			);
+			path = SunbeamLogService;
+			sourceTree = "<group>";
+		};
+		A0600F75F2CA2734214491EF688B842F /* Pods-SunbeamLogService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5BEFC03AEDEF8304814891FEC6458CD7 /* Info.plist */,
+				CD92379AA9E39B4D5A7A9E7F1F958124 /* Pods-SunbeamLogService_Tests.modulemap */,
+				83737DEF9EBA9D2D5B8FD767D2928C62 /* Pods-SunbeamLogService_Tests-acknowledgements.markdown */,
+				476058247914405AE35AB6C681372564 /* Pods-SunbeamLogService_Tests-acknowledgements.plist */,
+				5CBEEF8DB15212F9848CD4A5EEB20839 /* Pods-SunbeamLogService_Tests-dummy.m */,
+				393FC626EDD9D9E8F479CEAFE8809041 /* Pods-SunbeamLogService_Tests-frameworks.sh */,
+				A287D7D9793066E323D4A82617F2357F /* Pods-SunbeamLogService_Tests-resources.sh */,
+				48FDB7C68EA8F0F79BB54952DCEED026 /* Pods-SunbeamLogService_Tests-umbrella.h */,
+				4CBF3265B0FE2F24E86C0D9E8C1AE6D1 /* Pods-SunbeamLogService_Tests.debug.xcconfig */,
+				43433C8B1A7305EC18FE22296215BC7C /* Pods-SunbeamLogService_Tests.release.xcconfig */,
+			);
+			name = "Pods-SunbeamLogService_Tests";
+			path = "Target Support Files/Pods-SunbeamLogService_Tests";
+			sourceTree = "<group>";
+		};
+		BBF7AF69801D30D96FB55137BD88CA5F /* Zlog */ = {
+			isa = PBXGroup;
+			children = (
+				3A5AD90031C002CE42C60A00AA05B629 /* buf.c */,
+				57DF25333B020D66D394A07B7B481D98 /* buf.h */,
+				9CE629284B8344AD966E2432F6B92A51 /* category.c */,
+				84A570D76E1213EC9DAC958032C42AE0 /* category.h */,
+				FF93D21C65964C182FE880F4D128EBB6 /* category_table.c */,
+				637248DE9977848323D73CAE87CC7B2C /* category_table.h */,
+				F86A07005C704D477C36ADCABB54C022 /* conf.c */,
+				9A7521B96B718B5F9F858F53950C68BA /* conf.h */,
+				2C2A304890B6CA212D4B74B42315EC74 /* event.c */,
+				74FD5960C0ABA0DB2AE3B3D6CA6C2A64 /* event.h */,
+				C24A8854BF8B8C2DDF501D740ED93E25 /* fmacros.h */,
+				74EB46756880BC2DCFE845AA6E5DE7CA /* format.c */,
+				8EDA2D470832132BF65F099C27B16BF4 /* format.h */,
+				A1A67DBFB86C6C41B9B3F6A889CFB578 /* level.c */,
+				00A5C5E348EB340EBCF74C054B13DF74 /* level.h */,
+				4DA1A6F0C0A62D1AA9C3D4DFF2FAA861 /* level_list.c */,
+				15C2118568582C9F707229CCE0D148AA /* level_list.h */,
+				6B1DBF9FF574B6BC1F2F7002C759F546 /* mdc.c */,
+				96246399CAC3EA123152DFBAFD2B3D81 /* mdc.h */,
+				AD1A1C3855B72E6978F746A7AF960AC7 /* record.c */,
+				8A59783636881CCB2018BD889EA19391 /* record.h */,
+				23ECE94E3FEEDA7A02259E8FA93090DA /* record_table.c */,
+				393A2818D99F23058CDF1A7AC6542B62 /* record_table.h */,
+				27ADE7238C22F6F741F2B7AF9E214DF1 /* rotater.c */,
+				9AA5E48A4B0A80B6BA443F205D30C0F1 /* rotater.h */,
+				4DA40CD1C54B2828FA97813C27C2A7B4 /* rule.c */,
+				8F7E8A719E94818E6845F79526C89311 /* rule.h */,
+				12A093C07F0CF2FFC533476AAD70E5A5 /* spec.c */,
+				D78D66140A129258AB8B4763EA40F516 /* spec.h */,
+				A26E0E8F12F6392E772B887A3BF4F8DD /* thread.c */,
+				9C559092A1947A235595CA01BB0603A7 /* thread.h */,
+				09B877AE7E373E5694CC5ECCCFE76AA0 /* version.h */,
+				176A836F0A525C9523504E0A160FFB35 /* zc_arraylist.c */,
+				F1C8ADEBF272E92CFF30002A69EC4F28 /* zc_arraylist.h */,
+				4CB5817E3155585AEC3D26B4A945A6B1 /* zc_defs.h */,
+				6CAA30F3662E7F922B85B53974A4EDE3 /* zc_hashtable.c */,
+				3FE80A55EDDF4C302E5CAE7F3F1BEAA5 /* zc_hashtable.h */,
+				9F7779D2BF1E3A5EB0E0BF192D6AF07E /* zc_profile.c */,
+				50A1F433E5BE05CC81567C1190249B59 /* zc_profile.h */,
+				95CAB42D5D06A45E027572BAF0AC451E /* zc_util.c */,
+				A00A123EE09AB82F54DC1108F36795F4 /* zc_util.h */,
+				027B730879C1F83F7B941284CDD041B0 /* zc_xplatform.h */,
+				6DBE69F1BF2B9E90C2F076C204B3A046 /* zlog.c */,
+				025184C7476987EC7D71F4FB8E77ABCF /* zlog.h */,
+				D20597AD567F87FE7F33C428859DF486 /* zlog-chk-conf.c */,
+			);
+			path = Zlog;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCC723E222525CDF79054D1578CDD096 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7218608E1031B16CBCD800F9E91232A6 /* SunbeamLogService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF40D5807B647F6D2CE45AA0595FFFAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B99EA77E6B8D3ED719DF0EC5ACEDD0C6 /* Info.plist */,
+				DA2C194CEBFD4E2751975C3D2CA97858 /* SunbeamLogService.modulemap */,
+				1BEE33C56E7C58E080D0114673773863 /* SunbeamLogService.xcconfig */,
+				4B12B1393139F6C4F20BD488BB7F96B3 /* SunbeamLogService-dummy.m */,
+				3774F311EE7CCC0C2CBEA04F5046A4C4 /* SunbeamLogService-prefix.pch */,
+				1A0126BAC3A52C3415B74463835B90A1 /* SunbeamLogService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SunbeamLogService";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		237DDDE40E678AC36BD371829EDF2F69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2B451E435B325F4D4B0A0E24D44119 /* Pods-SunbeamLogService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF024C5EA2FF011FEC5828F7C707AC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1176AB17610ACCB8C99B7B309CF96AB /* buf.h in Headers */,
+				EFDB64F9E7EDFFC2DA224CE09C10D662 /* category.h in Headers */,
+				3892D067F9314E3B7C4503084908D519 /* category_table.h in Headers */,
+				FF2F243FBA885EB944F2476A888FED32 /* conf.h in Headers */,
+				D90A308E74F761C5E9F7FC26FCD20056 /* event.h in Headers */,
+				ABDC08C3636BFD1134F4EEC25B18BCD0 /* fmacros.h in Headers */,
+				AA6C91BE4EF3079295C8F47AF53FEAE4 /* format.h in Headers */,
+				933155E22D23AEED933102A842B024C4 /* level.h in Headers */,
+				3A0E24BCF559657C0F3A3DEA79FC3EFC /* level_list.h in Headers */,
+				1EEFA04C81816A206DEDC3F56293A745 /* mdc.h in Headers */,
+				112FFC3850F4F7D84293EC3C6E2884A5 /* record.h in Headers */,
+				0EDB77A4AA3DFDFDA5386B1D8B160380 /* record_table.h in Headers */,
+				749FB6E47D9F99D093C9EC0AB1B6D4BE /* rotater.h in Headers */,
+				975C93F0CC7CD7DD94B9547CF9CA8F54 /* rule.h in Headers */,
+				5D9D2FCAC3045915752A5D0E8BB1BDBB /* SLog.h in Headers */,
+				33C785B35C27186C606D58DCC2EBFC27 /* spec.h in Headers */,
+				C4F59A28FFEEDF8722071EF749D9B418 /* SunbeamLogService-umbrella.h in Headers */,
+				8A4CABD4F28731C9C08CFCDBE7B1B220 /* SunbeamLogService.h in Headers */,
+				44D46989F7E7173C9F742D29E649970B /* thread.h in Headers */,
+				CA12D4382CEFA3EA1470D8BED1C72C3B /* version.h in Headers */,
+				109527B05A8BBD41C611AF610F90C0B6 /* zc_arraylist.h in Headers */,
+				757F13E67CBF2FC055A5245A39B900EA /* zc_defs.h in Headers */,
+				35B01B1B782504AAE6073A33AED83F06 /* zc_hashtable.h in Headers */,
+				129FAAC3D93ED5A74BBF49EB68097FC6 /* zc_profile.h in Headers */,
+				B15877C4315A1261CF99773DC78996D2 /* zc_util.h in Headers */,
+				99B2CA319ABD65F010368F713470665E /* zc_xplatform.h in Headers */,
+				7324431DB1656BB412635DC6215E60C6 /* zlog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BC93A71D0337BD1E1BAA5C18C34F0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2A61CAD63E6DC2232E1A8B99547B30 /* Pods-SunbeamLogService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37FD109BE72141D70903D58652FE52CA /* SunbeamLogService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDECBB7C80BEC9E6E1720ADA428B28C /* Build configuration list for PBXNativeTarget "SunbeamLogService" */;
+			buildPhases = (
+				237F1C92E863E3F584BA50C732F0197E /* Sources */,
+				DEE32FCB11E4BDCB7092AF3239DC47E1 /* Frameworks */,
+				3AF024C5EA2FF011FEC5828F7C707AC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunbeamLogService;
+			productName = SunbeamLogService;
+			productReference = B8FD057B32CD13BD6704EF61D6AE6DE2 /* SunbeamLogService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6BFD214480579BF9D4918BA124CD4CE /* Pods-SunbeamLogService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC9F181692B74CA5EC937051D09F770 /* Build configuration list for PBXNativeTarget "Pods-SunbeamLogService_Example" */;
+			buildPhases = (
+				A22DB664ECE9A357881F7C5E26EA1712 /* Sources */,
+				217B48DE1EBFE539B4CFC825349044F0 /* Frameworks */,
+				237DDDE40E678AC36BD371829EDF2F69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B30D2130B5538BB153231C161F1C37A /* PBXTargetDependency */,
+			);
+			name = "Pods-SunbeamLogService_Example";
+			productName = "Pods-SunbeamLogService_Example";
+			productReference = 847CD06E42FAFAF88ED1B41B384FDD3B /* Pods_SunbeamLogService_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E62071DD7472F30DC572C2D1E5690C60 /* Pods-SunbeamLogService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAA44899F916B8E97F3C249223EB09D /* Build configuration list for PBXNativeTarget "Pods-SunbeamLogService_Tests" */;
+			buildPhases = (
+				E9ADC96C117D674D1C79A145CFA6936D /* Sources */,
+				61C9389A7A0774F73003A9F466309923 /* Frameworks */,
+				F6BC93A71D0337BD1E1BAA5C18C34F0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SunbeamLogService_Tests";
+			productName = "Pods-SunbeamLogService_Tests";
+			productReference = 1680E9F5DC686E6A5198427C27174CC3 /* Pods_SunbeamLogService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 26A21352D7CCD47A84DDFBEBBD555BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6BFD214480579BF9D4918BA124CD4CE /* Pods-SunbeamLogService_Example */,
+				E62071DD7472F30DC572C2D1E5690C60 /* Pods-SunbeamLogService_Tests */,
+				37FD109BE72141D70903D58652FE52CA /* SunbeamLogService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		237F1C92E863E3F584BA50C732F0197E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DC3041AB5EC7852C0A21ADE03481C1 /* buf.c in Sources */,
+				00F48A28052878290CC8639809F131AA /* category.c in Sources */,
+				680400CB499037C13D28B82BC03EB84F /* category_table.c in Sources */,
+				F0387E28955DD27E97741CC0D2A480C0 /* conf.c in Sources */,
+				02490E71E6662EA74D4950E38EA73B6C /* event.c in Sources */,
+				05C9CFA0FC5E9D356BFDA7EC45D52C93 /* format.c in Sources */,
+				671EE5EFF49102EF70BA827BAFE7C33F /* level.c in Sources */,
+				A2BC448DD1EFC414BBBF838B74165845 /* level_list.c in Sources */,
+				B86858F4C53AB366C1EFC45BEBAB1906 /* mdc.c in Sources */,
+				4E7535D57D041E63A5D0557D1134B51B /* record.c in Sources */,
+				89C8D5311439CE09E20839A2EACF12DB /* record_table.c in Sources */,
+				DC2B78F7D590082B1B9A9898683C6F1B /* rotater.c in Sources */,
+				6EB2D123A9FC2CFEAF3A341EEB88FD02 /* rule.c in Sources */,
+				7C816E78E6473CA5014A0D335CE497AC /* SLog.m in Sources */,
+				687AB48D6C71E0696A459111F9884415 /* spec.c in Sources */,
+				D3038F8A86F07C24E79C8B96B8EAF4C2 /* SunbeamLogService-dummy.m in Sources */,
+				5D984A274776752C226F7DEE844738BD /* thread.c in Sources */,
+				687BF8C1859B9819A204000048355889 /* zc_arraylist.c in Sources */,
+				30E33798CFDCA9562ECFB982FA5A029F /* zc_hashtable.c in Sources */,
+				B7F4A993C4D93E6306978C76AEA89D56 /* zc_profile.c in Sources */,
+				551A650B48F6D19D7B129682D7F01735 /* zc_util.c in Sources */,
+				1376009CFDB77EAF8437F026D9DCFE29 /* zlog-chk-conf.c in Sources */,
+				7F0029AEA94173B018380A6228471914 /* zlog.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22DB664ECE9A357881F7C5E26EA1712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0CEC779124FDBD4F4B9BA96B5AFF71 /* Pods-SunbeamLogService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ADC96C117D674D1C79A145CFA6936D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80F9C6E454D0959D2A03738D367810A /* Pods-SunbeamLogService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B30D2130B5538BB153231C161F1C37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SunbeamLogService;
+			target = 37FD109BE72141D70903D58652FE52CA /* SunbeamLogService */;
+			targetProxy = A18548A328FA76BE0B87AF2F5A9F79B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E22A96D6D8CC4F2FFFB79BB42194D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C797208E0C8C89D94DAACE35BDA8E7 /* Pods-SunbeamLogService_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SunbeamLogService_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunbeamLogService_Example/Pods-SunbeamLogService_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SunbeamLogService_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185C5031CE31D361E9DE5A9FD843DABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CBF3265B0FE2F24E86C0D9E8C1AE6D1 /* Pods-SunbeamLogService_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SunbeamLogService_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunbeamLogService_Tests/Pods-SunbeamLogService_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SunbeamLogService_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38FC6CC2140AC4D051B859C7527BE797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEE33C56E7C58E080D0114673773863 /* SunbeamLogService.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SunbeamLogService/SunbeamLogService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SunbeamLogService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SunbeamLogService/SunbeamLogService.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SunbeamLogService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		443FF1490848F14D286DE12937D82B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43433C8B1A7305EC18FE22296215BC7C /* Pods-SunbeamLogService_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SunbeamLogService_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunbeamLogService_Tests/Pods-SunbeamLogService_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SunbeamLogService_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8459B3D71B6ACCE978CC778D5370B487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D404986301EA978D9E089A7C5C948587 /* Pods-SunbeamLogService_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SunbeamLogService_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunbeamLogService_Example/Pods-SunbeamLogService_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SunbeamLogService_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B47FE401F346A6CDD22B7F3DF1D49B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEE33C56E7C58E080D0114673773863 /* SunbeamLogService.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SunbeamLogService/SunbeamLogService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SunbeamLogService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SunbeamLogService/SunbeamLogService.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SunbeamLogService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EAA44899F916B8E97F3C249223EB09D /* Build configuration list for PBXNativeTarget "Pods-SunbeamLogService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185C5031CE31D361E9DE5A9FD843DABB /* Debug */,
+				443FF1490848F14D286DE12937D82B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDECBB7C80BEC9E6E1720ADA428B28C /* Build configuration list for PBXNativeTarget "SunbeamLogService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FC6CC2140AC4D051B859C7527BE797 /* Debug */,
+				B47FE401F346A6CDD22B7F3DF1D49B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC9F181692B74CA5EC937051D09F770 /* Build configuration list for PBXNativeTarget "Pods-SunbeamLogService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8459B3D71B6ACCE978CC778D5370B487 /* Debug */,
+				03E22A96D6D8CC4F2FFFB79BB42194D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

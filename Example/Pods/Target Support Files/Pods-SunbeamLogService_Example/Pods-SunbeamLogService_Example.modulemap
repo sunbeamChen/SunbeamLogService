@@ -1,0 +1,6 @@
+framework module Pods_SunbeamLogService_Example {
+  umbrella header "Pods-SunbeamLogService_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

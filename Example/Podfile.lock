@@ -1,0 +1,16 @@
+PODS:
+  - SunbeamLogService (0.1.0)
+
+DEPENDENCIES:
+  - SunbeamLogService (from `../`)
+
+EXTERNAL SOURCES:
+  SunbeamLogService:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SunbeamLogService: 7d9f32e14f0473679a57fff01137e5c3b8258e19
+
+PODFILE CHECKSUM: 35184d9768357a1ab54f7a6fa127c0a0b2898785
+
+COCOAPODS: 1.0.1
