@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		097B1B4EC1169AA53C97DB3528F3665C /* zc_profile.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AD52F25DC0FAE50922E27F681EFF8E /* zc_profile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		00F48A28052878290CC8639809F131AA /* category.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EABD0EB5156B1D6223082173B5626B8 /* category.c */; };
+		02490E71E6662EA74D4950E38EA73B6C /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = C644822EF8F2112DFDD19D3D890537EA /* event.c */; };
+		05C9CFA0FC5E9D356BFDA7EC45D52C93 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C746E58AB77C46354A247C23023000E /* format.c */; };
+		097B1B4EC1169AA53C97DB3528F3665C /* zc_profile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B41EBE9F7FAA75F0B363FB87D19F02B /* zc_profile.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		09917DBB702A6CBC6BE17ABEC540B864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		0AAEDC9CF5A925313CF7BF817E7F563A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		0D444967D7AFE80C56C957E35B30A833 /* category_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 1957D16BC549A8005915A921E927A6EA /* category_table.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		13B86094C48E3D845DAB1D05080C9D66 /* conf.c in Sources */ = {isa = PBXBuildFile; fileRef = CB7C8258812F9539DD0E41896FB60916 /* conf.c */; };
-		1BF77ACDA41881A406CD2C3C955D3953 /* rotater.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B8FC57A022AEDD0A349433989E938D /* rotater.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		203BDB31DD97CDB90E481F4FAFE94352 /* fmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BFB53C5E43887DC568F5267FDB9E62 /* fmacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		240D3779CBE046EF88AE569E79C17EEA /* category.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4BD0868D0381CF7E44882C08EAB42E /* category.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2686381709D71674A91203E9DD6E42F7 /* zc_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CBE354B065E1CB7F2D87E867058D8FB /* zc_defs.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D730F19CE8506A161C6BCAF2B5452C1 /* zc_hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CC4A5763BD58D9953A192ED3B4498 /* zc_hashtable.c */; };
-		338B0FA9C262C701717CE6A2626BE6ED /* zc_xplatform.h in Headers */ = {isa = PBXBuildFile; fileRef = F5AF4D87EC4D30D524D10F66B94C488E /* zc_xplatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3BE5D1F7FA5F9C4D57D12575CB1B7885 /* rotater.c in Sources */ = {isa = PBXBuildFile; fileRef = 499EF1B9C463B09D620A1719B02F7B57 /* rotater.c */; };
+		0D444967D7AFE80C56C957E35B30A833 /* category_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C1B2594E41F3AC6234561053A89FD7 /* category_table.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1376009CFDB77EAF8437F026D9DCFE29 /* zlog-chk-conf.c in Sources */ = {isa = PBXBuildFile; fileRef = D2030876A322CB11643B35A6E348D887 /* zlog-chk-conf.c */; };
+		1BF77ACDA41881A406CD2C3C955D3953 /* rotater.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F7EB6FDA4332945FD6317DBB31356 /* rotater.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		203BDB31DD97CDB90E481F4FAFE94352 /* fmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF686DC003799F6A79D4754D55E9D84 /* fmacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		240D3779CBE046EF88AE569E79C17EEA /* category.h in Headers */ = {isa = PBXBuildFile; fileRef = E10E8190DDF80166BA68625F4EF73F5D /* category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2686381709D71674A91203E9DD6E42F7 /* zc_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA413BA0DEA6DB80C2EF241BC094B1A /* zc_defs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30E33798CFDCA9562ECFB982FA5A029F /* zc_hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 442306F9CEC4CFF148C1B5B07BAE95CF /* zc_hashtable.c */; };
+		338B0FA9C262C701717CE6A2626BE6ED /* zc_xplatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C909220894613149E40C0465ABC4BED1 /* zc_xplatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3F2A61CAD63E6DC2232E1A8B99547B30 /* Pods-SunbeamLogService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FDB7C68EA8F0F79BB54952DCEED026 /* Pods-SunbeamLogService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		465D153EB0850DF248E397D06116850E /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D9E716088CCBB44BB4BFC9F9BDB6E9 /* thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		468A27CA203F526CD954978A46AD28CC /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C9AEFF71055821F1B482A991F62277 /* version.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		465D153EB0850DF248E397D06116850E /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 289111A0BE74C4467266499BAD6943CF /* thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		468A27CA203F526CD954978A46AD28CC /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D7CC4A8D93DA6AFF7666D628C2956089 /* version.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4A0CEC779124FDBD4F4B9BA96B5AFF71 /* Pods-SunbeamLogService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6809DFD7297CA79105D27B9A558EB75D /* Pods-SunbeamLogService_Example-dummy.m */; };
-		5170304FC51B924E0128E531CF048E4E /* level_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2F811DA9643D8AFB292C89FF1696BC /* level_list.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E7535D57D041E63A5D0557D1134B51B /* record.c in Sources */ = {isa = PBXBuildFile; fileRef = 5EF867797C72423778485E0BE080857A /* record.c */; };
+		5170304FC51B924E0128E531CF048E4E /* level_list.h in Headers */ = {isa = PBXBuildFile; fileRef = D81D5F7F62EA877B7503DC5B59AF86D5 /* level_list.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		51A006F0E48D4625219EA296C0A85F01 /* SunbeamLogService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F268993B7D99451DDA1818170BFB3703 /* SunbeamLogService.bundle */; };
-		5B74B733AD1B78E2B13D3E7A13BA812B /* zlog.conf in Sources */ = {isa = PBXBuildFile; fileRef = 7AB6FFC40936FBCB2CFEAE3BC9A5C79B /* zlog.conf */; };
-		5C04D0B1F3694918EA9E64B2BCEA774C /* zlog.h in Headers */ = {isa = PBXBuildFile; fileRef = 733C093D7F52B51874FC41598723AD73 /* zlog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5D9D2FCAC3045915752A5D0E8BB1BDBB /* SLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC8A586E1383DB693EFFBBEA82408B5 /* SLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FFB09EB0302BC6F3803D92BFA74F485 /* level_list.c in Sources */ = {isa = PBXBuildFile; fileRef = E374D05472FA183781D339D4ED78200F /* level_list.c */; };
-		64A99F2A9A660397A8C38780A1B2DA6D /* level.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3097C2DAAA9E26113E7372A71E6536 /* level.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		66D4D321AAA7B62FCA66AFC6004AC395 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = 64C716C9ECA88F9D404F9D22D7AC1F05 /* event.c */; };
-		726B5C0689F64FADF8F5FA0626E86E38 /* category_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EA721E004F6956DAB85EE6AA5443966 /* category_table.c */; };
-		81E638E1FA6BB970DC644339D3462E36 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A28E331FDF63060DFF06E6458C5152 /* conf.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		85AF7D7A5F9E01F95172E9006C7086F7 /* record.c in Sources */ = {isa = PBXBuildFile; fileRef = D3D737C9CC713E1E46F032E8E0CDE7B0 /* record.c */; };
-		8751DE8D414BFB45BA2AEFF3FD78698A /* zc_arraylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A79531AA5C3D5D03A546282E16459E /* zc_arraylist.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A4CABD4F28731C9C08CFCDBE7B1B220 /* SunbeamLogService.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E774B86B6D5BB820FA15899AA2F495 /* SunbeamLogService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D0640692E2F499EF32559B494667E5F /* zlog-chk-conf.c in Sources */ = {isa = PBXBuildFile; fileRef = 533573B718507E003B3A8AF652AEB1F4 /* zlog-chk-conf.c */; };
-		9895FBCFB064DEEF1330547AE003C746 /* zc_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 1044D28B150E4A9D8379F938DA0878D5 /* zc_util.c */; };
+		551A650B48F6D19D7B129682D7F01735 /* zc_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 7452CE7DF4DD123A3135E216CCB88998 /* zc_util.c */; };
+		5C04D0B1F3694918EA9E64B2BCEA774C /* zlog.h in Headers */ = {isa = PBXBuildFile; fileRef = F930F8F5AD112B901D51A64ACFF16509 /* zlog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D984A274776752C226F7DEE844738BD /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = CBE5441B3B37B8D62883878B15077FED /* thread.c */; };
+		5D9D2FCAC3045915752A5D0E8BB1BDBB /* SLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A143BF8FDCD67AE41A00FB52C5EA1518 /* SLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A99F2A9A660397A8C38780A1B2DA6D /* level.h in Headers */ = {isa = PBXBuildFile; fileRef = 895776A82D692202C5BC2FBE5D8F34A9 /* level.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		671EE5EFF49102EF70BA827BAFE7C33F /* level.c in Sources */ = {isa = PBXBuildFile; fileRef = 8AB294080025F1751CF9F02BF0E4B965 /* level.c */; };
+		680400CB499037C13D28B82BC03EB84F /* category_table.c in Sources */ = {isa = PBXBuildFile; fileRef = FF83DFC095E4B0940FEE9544D328B9EA /* category_table.c */; };
+		687AB48D6C71E0696A459111F9884415 /* spec.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BCA55A2DD26760422AD31D5EA9FFF1D /* spec.c */; };
+		687BF8C1859B9819A204000048355889 /* zc_arraylist.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AE51E150A993510AF80285CA8D56446 /* zc_arraylist.c */; };
+		6EB2D123A9FC2CFEAF3A341EEB88FD02 /* rule.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DDA3911982B9EA22E4426BA71E4F6D3 /* rule.c */; };
+		7C816E78E6473CA5014A0D335CE497AC /* SLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 450CF8A8DF9B67FE988A5F0DB9161540 /* SLog.m */; };
+		7F0029AEA94173B018380A6228471914 /* zlog.c in Sources */ = {isa = PBXBuildFile; fileRef = C4E9FF90C03860A1B5AC24A5172ACE52 /* zlog.c */; };
+		81E638E1FA6BB970DC644339D3462E36 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB43C9B4E279073A0388628733EE4B5 /* conf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8751DE8D414BFB45BA2AEFF3FD78698A /* zc_arraylist.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E16C3EDFB69300FEC03DAA489A97E84 /* zc_arraylist.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89C8D5311439CE09E20839A2EACF12DB /* record_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 5812DE188FF778EC5F56DC266740EFA5 /* record_table.c */; };
+		8A4CABD4F28731C9C08CFCDBE7B1B220 /* SunbeamLogService.h in Headers */ = {isa = PBXBuildFile; fileRef = C22C60D8F553BAE29D7CCD28D1D887A1 /* SunbeamLogService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972F88CDB92AF64168E4E169AF1971C0 /* SLog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7851DF64AAAE55798A079D036E821D10 /* SLog.bundle */; };
 		9C2B451E435B325F4D4B0A0E24D44119 /* Pods-SunbeamLogService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE08A21FC9CBCB48C97985EC85F3899 /* Pods-SunbeamLogService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D6CC04D92AAAAA38A2AF9332D58BE3D /* buf.c in Sources */ = {isa = PBXBuildFile; fileRef = E0A4BDA5B6E49F3D4D494C83273FF606 /* buf.c */; };
-		9FDD7E7F51816B1FAB59744818A800BC /* record.h in Headers */ = {isa = PBXBuildFile; fileRef = 677F6B41F6B8607FC8F13CB988920615 /* record.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0B1CC0344AF5BA67BCC8D0E650AB69D /* SLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C509CE196849B1BCAC905913150ABB95 /* SLog.m */; };
-		A0C0BEFAE9FE137B384BEF9CDD796C12 /* record_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 63E52E778D6346D32CF1594BBB7F8D58 /* record_table.c */; };
-		A7633B904B609D2EF7B1598E3307B95D /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D09A59412A8F8E82EB0D677FCF5CFE /* event.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD4EF25404CC140B6CEB4A6B127B8A37 /* buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AE3C33C024ECD142F1DDD6F4BDB30E /* buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B0AB8A93AC8D913DE0C1DB7EBF2E6C01 /* mdc.c in Sources */ = {isa = PBXBuildFile; fileRef = 29C733B788CC44B9078F73BD4B5D9B62 /* mdc.c */; };
-		B31439432FC8D3E3651916908A9536DF /* spec.c in Sources */ = {isa = PBXBuildFile; fileRef = 90FB17BF185EAD15CBE9DB3A2D5BEFD0 /* spec.c */; };
-		B7A17A74C87FA308DB51CAB2F0777CF9 /* category.c in Sources */ = {isa = PBXBuildFile; fileRef = AE94B5B69370A314518796F76C156A9A /* category.c */; };
+		9FDD7E7F51816B1FAB59744818A800BC /* record.h in Headers */ = {isa = PBXBuildFile; fileRef = BD10E1B48E8E34622EC0698AD3BB59CE /* record.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2BC448DD1EFC414BBBF838B74165845 /* level_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 082DF9A71C84C9FF703283E6307F5CFE /* level_list.c */; };
+		A7633B904B609D2EF7B1598E3307B95D /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C503271D610776F95F76598A29A9587 /* event.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD4EF25404CC140B6CEB4A6B127B8A37 /* buf.h in Headers */ = {isa = PBXBuildFile; fileRef = B350265BA462D71550FC794864FB1ED1 /* buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7F4A993C4D93E6306978C76AEA89D56 /* zc_profile.c in Sources */ = {isa = PBXBuildFile; fileRef = BDF904719E236813CF074BDE843F4683 /* zc_profile.c */; };
 		B83B54C6627C9DA5D448A485AC08529C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B9C7D7B0D9A89097B55B231C0407A958 /* rule.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA6FCBF1DF73DF853645A059CDA9A57 /* rule.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C4F59A28FFEEDF8722071EF749D9B418 /* SunbeamLogService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5C8463128743322969D4E6BBC6CEF2 /* SunbeamLogService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86858F4C53AB366C1EFC45BEBAB1906 /* mdc.c in Sources */ = {isa = PBXBuildFile; fileRef = BF83F388054D63D1A707F396784E327F /* mdc.c */; };
+		B9C7D7B0D9A89097B55B231C0407A958 /* rule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EED4B967347C64DD50520F6967072BF /* rule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4F59A28FFEEDF8722071EF749D9B418 /* SunbeamLogService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4F75C72F3310F068A98311C3162A45 /* SunbeamLogService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C80F9C6E454D0959D2A03738D367810A /* Pods-SunbeamLogService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBEEF8DB15212F9848CD4A5EEB20839 /* Pods-SunbeamLogService_Tests-dummy.m */; };
-		C8DDD6D7D3D6F01E4FB4B03CB8573978 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 69764926C43673A158D1302169364CEB /* format.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C9E06A5344995FCC82BA0E2A93E0F172 /* zc_hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = A27792C731E92E86B54714E25EB76D8D /* zc_hashtable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D1A7E1F34A7C1BB64E18849E99215EDC /* zc_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 883DA5C8E18E54B908DDAB61365E2866 /* zc_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3303D1A175540B5AFC8C4C12ED2388E /* zc_arraylist.c in Sources */ = {isa = PBXBuildFile; fileRef = F412BF46A42C856CC9B89BA4B7FD759C /* zc_arraylist.c */; };
-		DA377AF8A83848457A00A2C53AB505AC /* rule.c in Sources */ = {isa = PBXBuildFile; fileRef = 1495184377D99435EE4B5C688784635A /* rule.c */; };
-		DF837F5BC1824037C3B1159C0CDD1C49 /* record_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 428C3810F8394B071C33EEDD6B99F2C3 /* record_table.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E27A4C37201FC70BF3F60B3A39A97414 /* zlog.c in Sources */ = {isa = PBXBuildFile; fileRef = A6347FB04E21A70D58D3743C7C30F93B /* zlog.c */; };
-		E689365AE40C2656839E1627B5EDB247 /* spec.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A6F8FE57A2E98A8E9B0DFFBD82F2AF /* spec.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E6C7B490892549C938927FEAD1666F3E /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = EB19E0998CC08679F2405AB65646A801 /* format.c */; };
-		E74D9A2FB253E607AFED6C12A7994798 /* mdc.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEF8819D403C22963E5E1F65876EB47 /* mdc.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EDDB5C2612148107F980F88BBAA7941D /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 7686BF37939410B97D8AE5FF95E9CC38 /* thread.c */; };
-		FA754609735CE42BA4BF2E7A562A5574 /* level.c in Sources */ = {isa = PBXBuildFile; fileRef = C201CA02B3128DC124FAACF8DC306ECF /* level.c */; };
-		FBC85ABB31718BD7EF0CA675F51475B3 /* zc_profile.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A964A488DB40081E4127AF18713EC /* zc_profile.c */; };
-		FE6BB68DC3E8DBE978CB3D5A45480662 /* SunbeamLogService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C131ED1F758EE39718A9F1C09B061CF /* SunbeamLogService-dummy.m */; };
+		C8DDD6D7D3D6F01E4FB4B03CB8573978 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5F1CD65B5D09DBE567F2865454FABB /* format.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9E06A5344995FCC82BA0E2A93E0F172 /* zc_hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 615A2E51ADABCEFA0C61BE88FCE6A9A4 /* zc_hashtable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1A7E1F34A7C1BB64E18849E99215EDC /* zc_util.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7EB7052526005E3449B87F1FFD3A1B /* zc_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3038F8A86F07C24E79C8B96B8EAF4C2 /* SunbeamLogService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F54C98715BF6AAC5D49125FEA89A07 /* SunbeamLogService-dummy.m */; };
+		D7DC3041AB5EC7852C0A21ADE03481C1 /* buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 23CE0A122BBD5B032EF28C36999D7DE2 /* buf.c */; };
+		DC2B78F7D590082B1B9A9898683C6F1B /* rotater.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A7931D9DA5A35013A6D31C9C5E481B9 /* rotater.c */; };
+		DF837F5BC1824037C3B1159C0CDD1C49 /* record_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ED49F16A16575E4B2A1D5217DC2F0C /* record_table.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E689365AE40C2656839E1627B5EDB247 /* spec.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A988C55E4E238439D301E48813A819 /* spec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E74D9A2FB253E607AFED6C12A7994798 /* mdc.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEB6D73C01D9C6E8327898401F3D462 /* mdc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0387E28955DD27E97741CC0D2A480C0 /* conf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3799B0CB1ADC0C5D3A81A684160A57F3 /* conf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,88 +86,88 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09A79531AA5C3D5D03A546282E16459E /* zc_arraylist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_arraylist.h; sourceTree = "<group>"; };
-		1044D28B150E4A9D8379F938DA0878D5 /* zc_util.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_util.c; sourceTree = "<group>"; };
-		10AE3C33C024ECD142F1DDD6F4BDB30E /* buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buf.h; sourceTree = "<group>"; };
-		1495184377D99435EE4B5C688784635A /* rule.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rule.c; sourceTree = "<group>"; };
-		1957D16BC549A8005915A921E927A6EA /* category_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = category_table.h; sourceTree = "<group>"; };
-		1EA721E004F6956DAB85EE6AA5443966 /* category_table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = category_table.c; sourceTree = "<group>"; };
-		20B8FC57A022AEDD0A349433989E938D /* rotater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rotater.h; sourceTree = "<group>"; };
+		082DF9A71C84C9FF703283E6307F5CFE /* level_list.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = level_list.c; sourceTree = "<group>"; };
+		0B41EBE9F7FAA75F0B363FB87D19F02B /* zc_profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_profile.h; sourceTree = "<group>"; };
+		12F54C98715BF6AAC5D49125FEA89A07 /* SunbeamLogService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SunbeamLogService-dummy.m"; sourceTree = "<group>"; };
+		1E16C3EDFB69300FEC03DAA489A97E84 /* zc_arraylist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_arraylist.h; sourceTree = "<group>"; };
 		215E610F59A9DF62CAA69105AE7C5ABD /* Pods-SunbeamLogService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunbeamLogService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		29C733B788CC44B9078F73BD4B5D9B62 /* mdc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = mdc.c; sourceTree = "<group>"; };
-		2C131ED1F758EE39718A9F1C09B061CF /* SunbeamLogService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SunbeamLogService-dummy.m"; sourceTree = "<group>"; };
-		2F4CC4A5763BD58D9953A192ED3B4498 /* zc_hashtable.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_hashtable.c; sourceTree = "<group>"; };
-		316C2B1FBE35BE06424F1821DD9D855B /* SunbeamLogService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SunbeamLogService.modulemap; sourceTree = "<group>"; };
+		23CE0A122BBD5B032EF28C36999D7DE2 /* buf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = buf.c; sourceTree = "<group>"; };
+		289111A0BE74C4467266499BAD6943CF /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		2AE51E150A993510AF80285CA8D56446 /* zc_arraylist.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_arraylist.c; sourceTree = "<group>"; };
+		2DDA3911982B9EA22E4426BA71E4F6D3 /* rule.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rule.c; sourceTree = "<group>"; };
 		36425CA5BB3DA76EB6EA55CE096C2557 /* Pods_SunbeamLogService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunbeamLogService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3799B0CB1ADC0C5D3A81A684160A57F3 /* conf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = conf.c; sourceTree = "<group>"; };
+		37C1B2594E41F3AC6234561053A89FD7 /* category_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = category_table.h; sourceTree = "<group>"; };
 		393FC626EDD9D9E8F479CEAFE8809041 /* Pods-SunbeamLogService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunbeamLogService_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		428C3810F8394B071C33EEDD6B99F2C3 /* record_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = record_table.h; sourceTree = "<group>"; };
 		43433C8B1A7305EC18FE22296215BC7C /* Pods-SunbeamLogService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunbeamLogService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		442306F9CEC4CFF148C1B5B07BAE95CF /* zc_hashtable.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_hashtable.c; sourceTree = "<group>"; };
+		450CF8A8DF9B67FE988A5F0DB9161540 /* SLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLog.m; sourceTree = "<group>"; };
 		476058247914405AE35AB6C681372564 /* Pods-SunbeamLogService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunbeamLogService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		48FDB7C68EA8F0F79BB54952DCEED026 /* Pods-SunbeamLogService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunbeamLogService_Tests-umbrella.h"; sourceTree = "<group>"; };
-		499EF1B9C463B09D620A1719B02F7B57 /* rotater.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rotater.c; sourceTree = "<group>"; };
-		4B5C8463128743322969D4E6BBC6CEF2 /* SunbeamLogService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SunbeamLogService-umbrella.h"; sourceTree = "<group>"; };
-		4B6A964A488DB40081E4127AF18713EC /* zc_profile.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_profile.c; sourceTree = "<group>"; };
 		4CBF3265B0FE2F24E86C0D9E8C1AE6D1 /* Pods-SunbeamLogService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunbeamLogService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		51D9E716088CCBB44BB4BFC9F9BDB6E9 /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
-		533573B718507E003B3A8AF652AEB1F4 /* zlog-chk-conf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "zlog-chk-conf.c"; sourceTree = "<group>"; };
+		4EABD0EB5156B1D6223082173B5626B8 /* category.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = category.c; sourceTree = "<group>"; };
+		5812DE188FF778EC5F56DC266740EFA5 /* record_table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = record_table.c; sourceTree = "<group>"; };
 		5BEFC03AEDEF8304814891FEC6458CD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF686DC003799F6A79D4754D55E9D84 /* fmacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fmacros.h; sourceTree = "<group>"; };
+		5C746E58AB77C46354A247C23023000E /* format.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = format.c; sourceTree = "<group>"; };
 		5CBEEF8DB15212F9848CD4A5EEB20839 /* Pods-SunbeamLogService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunbeamLogService_Tests-dummy.m"; sourceTree = "<group>"; };
-		63C9AEFF71055821F1B482A991F62277 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
-		63E52E778D6346D32CF1594BBB7F8D58 /* record_table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = record_table.c; sourceTree = "<group>"; };
-		64C716C9ECA88F9D404F9D22D7AC1F05 /* event.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = event.c; sourceTree = "<group>"; };
-		677F6B41F6B8607FC8F13CB988920615 /* record.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = record.h; sourceTree = "<group>"; };
-		67A6F8FE57A2E98A8E9B0DFFBD82F2AF /* spec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = spec.h; sourceTree = "<group>"; };
+		5EF867797C72423778485E0BE080857A /* record.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = record.c; sourceTree = "<group>"; };
+		615A2E51ADABCEFA0C61BE88FCE6A9A4 /* zc_hashtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_hashtable.h; sourceTree = "<group>"; };
+		632E7C32E2C2925805C97EC46245CF73 /* SunbeamLogService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SunbeamLogService.modulemap; sourceTree = "<group>"; };
 		6809DFD7297CA79105D27B9A558EB75D /* Pods-SunbeamLogService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunbeamLogService_Example-dummy.m"; sourceTree = "<group>"; };
-		69764926C43673A158D1302169364CEB /* format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = format.h; sourceTree = "<group>"; };
-		6A3097C2DAAA9E26113E7372A71E6536 /* level.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = level.h; sourceTree = "<group>"; };
-		6CBE354B065E1CB7F2D87E867058D8FB /* zc_defs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_defs.h; sourceTree = "<group>"; };
-		733C093D7F52B51874FC41598723AD73 /* zlog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zlog.h; sourceTree = "<group>"; };
-		7686BF37939410B97D8AE5FF95E9CC38 /* thread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
-		7AB6FFC40936FBCB2CFEAE3BC9A5C79B /* zlog.conf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = zlog.conf; sourceTree = "<group>"; };
-		7D4BD0868D0381CF7E44882C08EAB42E /* category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = category.h; sourceTree = "<group>"; };
+		6A7931D9DA5A35013A6D31C9C5E481B9 /* rotater.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = rotater.c; sourceTree = "<group>"; };
+		6B25F928CE5BE95B610ABE2CDA633571 /* SunbeamLogService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SunbeamLogService-prefix.pch"; sourceTree = "<group>"; };
+		6C503271D610776F95F76598A29A9587 /* event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		7452CE7DF4DD123A3135E216CCB88998 /* zc_util.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_util.c; sourceTree = "<group>"; };
+		7851DF64AAAE55798A079D036E821D10 /* SLog.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = SLog.bundle; sourceTree = "<group>"; };
+		7BCA55A2DD26760422AD31D5EA9FFF1D /* spec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = spec.c; sourceTree = "<group>"; };
+		7C67E9FD89D4A8A158D6EAC76F84D711 /* SunbeamLogService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SunbeamLogService.xcconfig; sourceTree = "<group>"; };
+		7EED4B967347C64DD50520F6967072BF /* rule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rule.h; sourceTree = "<group>"; };
 		83737DEF9EBA9D2D5B8FD767D2928C62 /* Pods-SunbeamLogService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunbeamLogService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		883DA5C8E18E54B908DDAB61365E2866 /* zc_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_util.h; sourceTree = "<group>"; };
-		8F2F811DA9643D8AFB292C89FF1696BC /* level_list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = level_list.h; sourceTree = "<group>"; };
-		90FB17BF185EAD15CBE9DB3A2D5BEFD0 /* spec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = spec.c; sourceTree = "<group>"; };
-		92D09A59412A8F8E82EB0D677FCF5CFE /* event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		86ED49F16A16575E4B2A1D5217DC2F0C /* record_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = record_table.h; sourceTree = "<group>"; };
+		895776A82D692202C5BC2FBE5D8F34A9 /* level.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = level.h; sourceTree = "<group>"; };
+		8AB294080025F1751CF9F02BF0E4B965 /* level.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = level.c; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95E774B86B6D5BB820FA15899AA2F495 /* SunbeamLogService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SunbeamLogService.h; sourceTree = "<group>"; };
 		9D688BECA5D9A0FA99968C6A0EC9381F /* SunbeamLogService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SunbeamLogService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A27792C731E92E86B54714E25EB76D8D /* zc_hashtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_hashtable.h; sourceTree = "<group>"; };
+		A143BF8FDCD67AE41A00FB52C5EA1518 /* SLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLog.h; sourceTree = "<group>"; };
 		A287D7D9793066E323D4A82617F2357F /* Pods-SunbeamLogService_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunbeamLogService_Tests-resources.sh"; sourceTree = "<group>"; };
-		A6347FB04E21A70D58D3743C7C30F93B /* zlog.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zlog.c; sourceTree = "<group>"; };
+		A61D267093653A7B9DCB78684A7E9D23 /* ResourceBundle-SunbeamLogService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SunbeamLogService-Info.plist"; sourceTree = "<group>"; };
 		A74309BAB7F79C9030DEBDF12FD1B367 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7EAF0A89C70DD6611FE1459D60C36F6 /* Pods_SunbeamLogService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunbeamLogService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE94B5B69370A314518796F76C156A9A /* category.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = category.c; sourceTree = "<group>"; };
+		B1A988C55E4E238439D301E48813A819 /* spec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = spec.h; sourceTree = "<group>"; };
+		B350265BA462D71550FC794864FB1ED1 /* buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buf.h; sourceTree = "<group>"; };
 		B460C714466A87C33DE088B3480E2965 /* Pods-SunbeamLogService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SunbeamLogService_Example.modulemap"; sourceTree = "<group>"; };
 		BA2906D8319EB0D69AE8482392D5CCBC /* Pods-SunbeamLogService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunbeamLogService_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BFA6FCBF1DF73DF853645A059CDA9A57 /* rule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rule.h; sourceTree = "<group>"; };
-		C201CA02B3128DC124FAACF8DC306ECF /* level.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = level.c; sourceTree = "<group>"; };
-		C4AD52F25DC0FAE50922E27F681EFF8E /* zc_profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_profile.h; sourceTree = "<group>"; };
-		C509CE196849B1BCAC905913150ABB95 /* SLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLog.m; sourceTree = "<group>"; };
-		C6035A92A27A7651F61180B412FE1AB1 /* SunbeamLogService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SunbeamLogService-prefix.pch"; sourceTree = "<group>"; };
-		CB7C8258812F9539DD0E41896FB60916 /* conf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = conf.c; sourceTree = "<group>"; };
+		BBA413BA0DEA6DB80C2EF241BC094B1A /* zc_defs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_defs.h; sourceTree = "<group>"; };
+		BD10E1B48E8E34622EC0698AD3BB59CE /* record.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = record.h; sourceTree = "<group>"; };
+		BDF904719E236813CF074BDE843F4683 /* zc_profile.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_profile.c; sourceTree = "<group>"; };
+		BF83F388054D63D1A707F396784E327F /* mdc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = mdc.c; sourceTree = "<group>"; };
+		C22C60D8F553BAE29D7CCD28D1D887A1 /* SunbeamLogService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SunbeamLogService.h; sourceTree = "<group>"; };
+		C4E9FF90C03860A1B5AC24A5172ACE52 /* zlog.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zlog.c; sourceTree = "<group>"; };
+		C644822EF8F2112DFDD19D3D890537EA /* event.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = event.c; sourceTree = "<group>"; };
+		C87F7EB6FDA4332945FD6317DBB31356 /* rotater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rotater.h; sourceTree = "<group>"; };
+		C909220894613149E40C0465ABC4BED1 /* zc_xplatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_xplatform.h; sourceTree = "<group>"; };
+		CBE5441B3B37B8D62883878B15077FED /* thread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
+		CC7EB7052526005E3449B87F1FFD3A1B /* zc_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_util.h; sourceTree = "<group>"; };
 		CD92379AA9E39B4D5A7A9E7F1F958124 /* Pods-SunbeamLogService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SunbeamLogService_Tests.modulemap"; sourceTree = "<group>"; };
-		CDC8A586E1383DB693EFFBBEA82408B5 /* SLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLog.h; sourceTree = "<group>"; };
+		CE69EC12ED1BE872A34180487E659DD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB43C9B4E279073A0388628733EE4B5 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D3A28E331FDF63060DFF06E6458C5152 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
-		D3D737C9CC713E1E46F032E8E0CDE7B0 /* record.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = record.c; sourceTree = "<group>"; };
+		D2030876A322CB11643B35A6E348D887 /* zlog-chk-conf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = "zlog-chk-conf.c"; sourceTree = "<group>"; };
 		D404986301EA978D9E089A7C5C948587 /* Pods-SunbeamLogService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunbeamLogService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6C797208E0C8C89D94DAACE35BDA8E7 /* Pods-SunbeamLogService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunbeamLogService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D897C9216977A7548DCB5C8890C3C024 /* ResourceBundle-SunbeamLogService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SunbeamLogService-Info.plist"; sourceTree = "<group>"; };
-		D8BD9F38DE94AD5DF3D9F06338A85405 /* SunbeamLogService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SunbeamLogService.xcconfig; sourceTree = "<group>"; };
+		D7CC4A8D93DA6AFF7666D628C2956089 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		D81D5F7F62EA877B7503DC5B59AF86D5 /* level_list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = level_list.h; sourceTree = "<group>"; };
 		DBE08A21FC9CBCB48C97985EC85F3899 /* Pods-SunbeamLogService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunbeamLogService_Example-umbrella.h"; sourceTree = "<group>"; };
 		DD6652688A3D6DDA8B5E95D213ADFBB1 /* Pods-SunbeamLogService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunbeamLogService_Example-resources.sh"; sourceTree = "<group>"; };
-		DEEF8819D403C22963E5E1F65876EB47 /* mdc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mdc.h; sourceTree = "<group>"; };
-		E0A4BDA5B6E49F3D4D494C83273FF606 /* buf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = buf.c; sourceTree = "<group>"; };
-		E374D05472FA183781D339D4ED78200F /* level_list.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = level_list.c; sourceTree = "<group>"; };
-		EB19E0998CC08679F2405AB65646A801 /* format.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = format.c; sourceTree = "<group>"; };
+		E10E8190DDF80166BA68625F4EF73F5D /* category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = category.h; sourceTree = "<group>"; };
+		EB5F1CD65B5D09DBE567F2865454FABB /* format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = format.h; sourceTree = "<group>"; };
 		F06A6A88CBBF644953810F7946BC62B8 /* Pods-SunbeamLogService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunbeamLogService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F268993B7D99451DDA1818170BFB3703 /* SunbeamLogService.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunbeamLogService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F412BF46A42C856CC9B89BA4B7FD759C /* zc_arraylist.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = zc_arraylist.c; sourceTree = "<group>"; };
-		F5AF4D87EC4D30D524D10F66B94C488E /* zc_xplatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zc_xplatform.h; sourceTree = "<group>"; };
-		F9BFB53C5E43887DC568F5267FDB9E62 /* fmacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fmacros.h; sourceTree = "<group>"; };
-		FCE0C9C850294733F82B39029F95100E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F930F8F5AD112B901D51A64ACFF16509 /* zlog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zlog.h; sourceTree = "<group>"; };
+		FA4F75C72F3310F068A98311C3162A45 /* SunbeamLogService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SunbeamLogService-umbrella.h"; sourceTree = "<group>"; };
+		FEEB6D73C01D9C6E8327898401F3D462 /* mdc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mdc.h; sourceTree = "<group>"; };
+		FF83DFC095E4B0940FEE9544D328B9EA /* category_table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = category_table.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +223,85 @@
 			path = "Target Support Files/Pods-SunbeamLogService_Example";
 			sourceTree = "<group>";
 		};
+		197710D5D78E3867DF50E481FA2C1BFD /* SunbeamLogService */ = {
+			isa = PBXGroup;
+			children = (
+				6C7702EFEA3FB53BEF5A74ED133DF835 /* Classes */,
+			);
+			path = SunbeamLogService;
+			sourceTree = "<group>";
+		};
+		246EC8CBAE1249C498A1672F501FCA4C /* SunbeamLogService */ = {
+			isa = PBXGroup;
+			children = (
+				6BA9C21A742F927E3B20FF2B538BA4C4 /* Assets */,
+			);
+			path = SunbeamLogService;
+			sourceTree = "<group>";
+		};
+		2D43D4BBBF2E4F3F366AAA38A5EEE858 /* Zlog */ = {
+			isa = PBXGroup;
+			children = (
+				23CE0A122BBD5B032EF28C36999D7DE2 /* buf.c */,
+				B350265BA462D71550FC794864FB1ED1 /* buf.h */,
+				4EABD0EB5156B1D6223082173B5626B8 /* category.c */,
+				E10E8190DDF80166BA68625F4EF73F5D /* category.h */,
+				FF83DFC095E4B0940FEE9544D328B9EA /* category_table.c */,
+				37C1B2594E41F3AC6234561053A89FD7 /* category_table.h */,
+				3799B0CB1ADC0C5D3A81A684160A57F3 /* conf.c */,
+				CEB43C9B4E279073A0388628733EE4B5 /* conf.h */,
+				C644822EF8F2112DFDD19D3D890537EA /* event.c */,
+				6C503271D610776F95F76598A29A9587 /* event.h */,
+				5BF686DC003799F6A79D4754D55E9D84 /* fmacros.h */,
+				5C746E58AB77C46354A247C23023000E /* format.c */,
+				EB5F1CD65B5D09DBE567F2865454FABB /* format.h */,
+				8AB294080025F1751CF9F02BF0E4B965 /* level.c */,
+				895776A82D692202C5BC2FBE5D8F34A9 /* level.h */,
+				082DF9A71C84C9FF703283E6307F5CFE /* level_list.c */,
+				D81D5F7F62EA877B7503DC5B59AF86D5 /* level_list.h */,
+				BF83F388054D63D1A707F396784E327F /* mdc.c */,
+				FEEB6D73C01D9C6E8327898401F3D462 /* mdc.h */,
+				5EF867797C72423778485E0BE080857A /* record.c */,
+				BD10E1B48E8E34622EC0698AD3BB59CE /* record.h */,
+				5812DE188FF778EC5F56DC266740EFA5 /* record_table.c */,
+				86ED49F16A16575E4B2A1D5217DC2F0C /* record_table.h */,
+				6A7931D9DA5A35013A6D31C9C5E481B9 /* rotater.c */,
+				C87F7EB6FDA4332945FD6317DBB31356 /* rotater.h */,
+				2DDA3911982B9EA22E4426BA71E4F6D3 /* rule.c */,
+				7EED4B967347C64DD50520F6967072BF /* rule.h */,
+				7BCA55A2DD26760422AD31D5EA9FFF1D /* spec.c */,
+				B1A988C55E4E238439D301E48813A819 /* spec.h */,
+				CBE5441B3B37B8D62883878B15077FED /* thread.c */,
+				289111A0BE74C4467266499BAD6943CF /* thread.h */,
+				D7CC4A8D93DA6AFF7666D628C2956089 /* version.h */,
+				2AE51E150A993510AF80285CA8D56446 /* zc_arraylist.c */,
+				1E16C3EDFB69300FEC03DAA489A97E84 /* zc_arraylist.h */,
+				BBA413BA0DEA6DB80C2EF241BC094B1A /* zc_defs.h */,
+				442306F9CEC4CFF148C1B5B07BAE95CF /* zc_hashtable.c */,
+				615A2E51ADABCEFA0C61BE88FCE6A9A4 /* zc_hashtable.h */,
+				BDF904719E236813CF074BDE843F4683 /* zc_profile.c */,
+				0B41EBE9F7FAA75F0B363FB87D19F02B /* zc_profile.h */,
+				7452CE7DF4DD123A3135E216CCB88998 /* zc_util.c */,
+				CC7EB7052526005E3449B87F1FFD3A1B /* zc_util.h */,
+				C909220894613149E40C0465ABC4BED1 /* zc_xplatform.h */,
+				C4E9FF90C03860A1B5AC24A5172ACE52 /* zlog.c */,
+				F930F8F5AD112B901D51A64ACFF16509 /* zlog.h */,
+				D2030876A322CB11643B35A6E348D887 /* zlog-chk-conf.c */,
+			);
+			path = Zlog;
+			sourceTree = "<group>";
+		};
+		3645ABBFE3155488887B0C9CF2A330E2 /* SunbeamLogService */ = {
+			isa = PBXGroup;
+			children = (
+				F578FE665AE2C821B598C8329C8EABA5 /* Resources */,
+				197710D5D78E3867DF50E481FA2C1BFD /* SunbeamLogService */,
+				4D0AA7E3AED28A2CA8E7EF11076FB3B8 /* Support Files */,
+			);
+			name = SunbeamLogService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		3DB8DE27FA7FACB50722A94868E3BA8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,23 +321,49 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		4D0AA7E3AED28A2CA8E7EF11076FB3B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE69EC12ED1BE872A34180487E659DD6 /* Info.plist */,
+				A61D267093653A7B9DCB78684A7E9D23 /* ResourceBundle-SunbeamLogService-Info.plist */,
+				632E7C32E2C2925805C97EC46245CF73 /* SunbeamLogService.modulemap */,
+				7C67E9FD89D4A8A158D6EAC76F84D711 /* SunbeamLogService.xcconfig */,
+				12F54C98715BF6AAC5D49125FEA89A07 /* SunbeamLogService-dummy.m */,
+				6B25F928CE5BE95B610ABE2CDA633571 /* SunbeamLogService-prefix.pch */,
+				FA4F75C72F3310F068A98311C3162A45 /* SunbeamLogService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SunbeamLogService";
+			sourceTree = "<group>";
+		};
+		6BA9C21A742F927E3B20FF2B538BA4C4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7851DF64AAAE55798A079D036E821D10 /* SLog.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6C7702EFEA3FB53BEF5A74ED133DF835 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A143BF8FDCD67AE41A00FB52C5EA1518 /* SLog.h */,
+				450CF8A8DF9B67FE988A5F0DB9161540 /* SLog.m */,
+				C22C60D8F553BAE29D7CCD28D1D887A1 /* SunbeamLogService.h */,
+				2D43D4BBBF2E4F3F366AAA38A5EEE858 /* Zlog */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FCC723E222525CDF79054D1578CDD096 /* Development Pods */,
+				BC88CB8AF700B8EEF6706900BF771048 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				3DB8DE27FA7FACB50722A94868E3BA8B /* Products */,
 				819A20C498E9F5C913B902A2A48B8860 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E7BACBBAD939EF29356C0DBEB1261A3 /* SLog.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				7AB6FFC40936FBCB2CFEAE3BC9A5C79B /* zlog.conf */,
-			);
-			path = SLog.bundle;
 			sourceTree = "<group>";
 		};
 		819A20C498E9F5C913B902A2A48B8860 /* Targets Support Files */ = {
@@ -268,18 +373,6 @@
 				A0600F75F2CA2734214491EF688B842F /* Pods-SunbeamLogService_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		87DB1B315A798568EF4716B62ED74C24 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CDC8A586E1383DB693EFFBBEA82408B5 /* SLog.h */,
-				C509CE196849B1BCAC905913150ABB95 /* SLog.m */,
-				95E774B86B6D5BB820FA15899AA2F495 /* SunbeamLogService.h */,
-				7E7BACBBAD939EF29356C0DBEB1261A3 /* SLog.bundle */,
-				E3D381DCA27E2E8C36F2ECB7429F786A /* Zlog */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		A0600F75F2CA2734214491EF688B842F /* Pods-SunbeamLogService_Tests */ = {
@@ -308,97 +401,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE32D6F62200C2C5AB3E3599ABD16867 /* SunbeamLogService */ = {
+		BC88CB8AF700B8EEF6706900BF771048 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				87DB1B315A798568EF4716B62ED74C24 /* Classes */,
-			);
-			path = SunbeamLogService;
-			sourceTree = "<group>";
-		};
-		E3D381DCA27E2E8C36F2ECB7429F786A /* Zlog */ = {
-			isa = PBXGroup;
-			children = (
-				E0A4BDA5B6E49F3D4D494C83273FF606 /* buf.c */,
-				10AE3C33C024ECD142F1DDD6F4BDB30E /* buf.h */,
-				AE94B5B69370A314518796F76C156A9A /* category.c */,
-				7D4BD0868D0381CF7E44882C08EAB42E /* category.h */,
-				1EA721E004F6956DAB85EE6AA5443966 /* category_table.c */,
-				1957D16BC549A8005915A921E927A6EA /* category_table.h */,
-				CB7C8258812F9539DD0E41896FB60916 /* conf.c */,
-				D3A28E331FDF63060DFF06E6458C5152 /* conf.h */,
-				64C716C9ECA88F9D404F9D22D7AC1F05 /* event.c */,
-				92D09A59412A8F8E82EB0D677FCF5CFE /* event.h */,
-				F9BFB53C5E43887DC568F5267FDB9E62 /* fmacros.h */,
-				EB19E0998CC08679F2405AB65646A801 /* format.c */,
-				69764926C43673A158D1302169364CEB /* format.h */,
-				C201CA02B3128DC124FAACF8DC306ECF /* level.c */,
-				6A3097C2DAAA9E26113E7372A71E6536 /* level.h */,
-				E374D05472FA183781D339D4ED78200F /* level_list.c */,
-				8F2F811DA9643D8AFB292C89FF1696BC /* level_list.h */,
-				29C733B788CC44B9078F73BD4B5D9B62 /* mdc.c */,
-				DEEF8819D403C22963E5E1F65876EB47 /* mdc.h */,
-				D3D737C9CC713E1E46F032E8E0CDE7B0 /* record.c */,
-				677F6B41F6B8607FC8F13CB988920615 /* record.h */,
-				63E52E778D6346D32CF1594BBB7F8D58 /* record_table.c */,
-				428C3810F8394B071C33EEDD6B99F2C3 /* record_table.h */,
-				499EF1B9C463B09D620A1719B02F7B57 /* rotater.c */,
-				20B8FC57A022AEDD0A349433989E938D /* rotater.h */,
-				1495184377D99435EE4B5C688784635A /* rule.c */,
-				BFA6FCBF1DF73DF853645A059CDA9A57 /* rule.h */,
-				90FB17BF185EAD15CBE9DB3A2D5BEFD0 /* spec.c */,
-				67A6F8FE57A2E98A8E9B0DFFBD82F2AF /* spec.h */,
-				7686BF37939410B97D8AE5FF95E9CC38 /* thread.c */,
-				51D9E716088CCBB44BB4BFC9F9BDB6E9 /* thread.h */,
-				63C9AEFF71055821F1B482A991F62277 /* version.h */,
-				F412BF46A42C856CC9B89BA4B7FD759C /* zc_arraylist.c */,
-				09A79531AA5C3D5D03A546282E16459E /* zc_arraylist.h */,
-				6CBE354B065E1CB7F2D87E867058D8FB /* zc_defs.h */,
-				2F4CC4A5763BD58D9953A192ED3B4498 /* zc_hashtable.c */,
-				A27792C731E92E86B54714E25EB76D8D /* zc_hashtable.h */,
-				4B6A964A488DB40081E4127AF18713EC /* zc_profile.c */,
-				C4AD52F25DC0FAE50922E27F681EFF8E /* zc_profile.h */,
-				1044D28B150E4A9D8379F938DA0878D5 /* zc_util.c */,
-				883DA5C8E18E54B908DDAB61365E2866 /* zc_util.h */,
-				F5AF4D87EC4D30D524D10F66B94C488E /* zc_xplatform.h */,
-				A6347FB04E21A70D58D3743C7C30F93B /* zlog.c */,
-				733C093D7F52B51874FC41598723AD73 /* zlog.h */,
-				533573B718507E003B3A8AF652AEB1F4 /* zlog-chk-conf.c */,
-			);
-			path = Zlog;
-			sourceTree = "<group>";
-		};
-		EE43C0C01DE5A0077EED8F821670845C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FCE0C9C850294733F82B39029F95100E /* Info.plist */,
-				D897C9216977A7548DCB5C8890C3C024 /* ResourceBundle-SunbeamLogService-Info.plist */,
-				316C2B1FBE35BE06424F1821DD9D855B /* SunbeamLogService.modulemap */,
-				D8BD9F38DE94AD5DF3D9F06338A85405 /* SunbeamLogService.xcconfig */,
-				2C131ED1F758EE39718A9F1C09B061CF /* SunbeamLogService-dummy.m */,
-				C6035A92A27A7651F61180B412FE1AB1 /* SunbeamLogService-prefix.pch */,
-				4B5C8463128743322969D4E6BBC6CEF2 /* SunbeamLogService-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SunbeamLogService";
-			sourceTree = "<group>";
-		};
-		F5CC617B6234B3F47FAB38342465FA78 /* SunbeamLogService */ = {
-			isa = PBXGroup;
-			children = (
-				CE32D6F62200C2C5AB3E3599ABD16867 /* SunbeamLogService */,
-				EE43C0C01DE5A0077EED8F821670845C /* Support Files */,
-			);
-			name = SunbeamLogService;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FCC723E222525CDF79054D1578CDD096 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F5CC617B6234B3F47FAB38342465FA78 /* SunbeamLogService */,
+				3645ABBFE3155488887B0C9CF2A330E2 /* SunbeamLogService */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F578FE665AE2C821B598C8329C8EABA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				246EC8CBAE1249C498A1672F501FCA4C /* SunbeamLogService */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,7 +477,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CDECBB7C80BEC9E6E1720ADA428B28C /* Build configuration list for PBXNativeTarget "SunbeamLogService" */;
 			buildPhases = (
-				301BBBA294656192D116C8AADF7A7E35 /* Sources */,
+				237F1C92E863E3F584BA50C732F0197E /* Sources */,
 				DEE32FCB11E4BDCB7092AF3239DC47E1 /* Frameworks */,
 				658AE4950A1C93EE9A6865B924701FAB /* Resources */,
 				3AF024C5EA2FF011FEC5828F7C707AC3 /* Headers */,
@@ -482,7 +498,7 @@
 			buildPhases = (
 				6E7F7AF17F7108DBB8D17BCF8BDF8EFC /* Sources */,
 				54C31FA8D91C182E68D3B4F2F9A6FD87 /* Frameworks */,
-				208B7874C5F7F203E90F0A43C2F6EB9A /* Resources */,
+				4C6DAB6BE43D22973443EC122D276258 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -558,10 +574,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		208B7874C5F7F203E90F0A43C2F6EB9A /* Resources */ = {
+		4C6DAB6BE43D22973443EC122D276258 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972F88CDB92AF64168E4E169AF1971C0 /* SLog.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,34 +593,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		301BBBA294656192D116C8AADF7A7E35 /* Sources */ = {
+		237F1C92E863E3F584BA50C732F0197E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D6CC04D92AAAAA38A2AF9332D58BE3D /* buf.c in Sources */,
-				B7A17A74C87FA308DB51CAB2F0777CF9 /* category.c in Sources */,
-				726B5C0689F64FADF8F5FA0626E86E38 /* category_table.c in Sources */,
-				13B86094C48E3D845DAB1D05080C9D66 /* conf.c in Sources */,
-				66D4D321AAA7B62FCA66AFC6004AC395 /* event.c in Sources */,
-				E6C7B490892549C938927FEAD1666F3E /* format.c in Sources */,
-				FA754609735CE42BA4BF2E7A562A5574 /* level.c in Sources */,
-				5FFB09EB0302BC6F3803D92BFA74F485 /* level_list.c in Sources */,
-				B0AB8A93AC8D913DE0C1DB7EBF2E6C01 /* mdc.c in Sources */,
-				85AF7D7A5F9E01F95172E9006C7086F7 /* record.c in Sources */,
-				A0C0BEFAE9FE137B384BEF9CDD796C12 /* record_table.c in Sources */,
-				3BE5D1F7FA5F9C4D57D12575CB1B7885 /* rotater.c in Sources */,
-				DA377AF8A83848457A00A2C53AB505AC /* rule.c in Sources */,
-				A0B1CC0344AF5BA67BCC8D0E650AB69D /* SLog.m in Sources */,
-				B31439432FC8D3E3651916908A9536DF /* spec.c in Sources */,
-				FE6BB68DC3E8DBE978CB3D5A45480662 /* SunbeamLogService-dummy.m in Sources */,
-				EDDB5C2612148107F980F88BBAA7941D /* thread.c in Sources */,
-				D3303D1A175540B5AFC8C4C12ED2388E /* zc_arraylist.c in Sources */,
-				2D730F19CE8506A161C6BCAF2B5452C1 /* zc_hashtable.c in Sources */,
-				FBC85ABB31718BD7EF0CA675F51475B3 /* zc_profile.c in Sources */,
-				9895FBCFB064DEEF1330547AE003C746 /* zc_util.c in Sources */,
-				8D0640692E2F499EF32559B494667E5F /* zlog-chk-conf.c in Sources */,
-				E27A4C37201FC70BF3F60B3A39A97414 /* zlog.c in Sources */,
-				5B74B733AD1B78E2B13D3E7A13BA812B /* zlog.conf in Sources */,
+				D7DC3041AB5EC7852C0A21ADE03481C1 /* buf.c in Sources */,
+				00F48A28052878290CC8639809F131AA /* category.c in Sources */,
+				680400CB499037C13D28B82BC03EB84F /* category_table.c in Sources */,
+				F0387E28955DD27E97741CC0D2A480C0 /* conf.c in Sources */,
+				02490E71E6662EA74D4950E38EA73B6C /* event.c in Sources */,
+				05C9CFA0FC5E9D356BFDA7EC45D52C93 /* format.c in Sources */,
+				671EE5EFF49102EF70BA827BAFE7C33F /* level.c in Sources */,
+				A2BC448DD1EFC414BBBF838B74165845 /* level_list.c in Sources */,
+				B86858F4C53AB366C1EFC45BEBAB1906 /* mdc.c in Sources */,
+				4E7535D57D041E63A5D0557D1134B51B /* record.c in Sources */,
+				89C8D5311439CE09E20839A2EACF12DB /* record_table.c in Sources */,
+				DC2B78F7D590082B1B9A9898683C6F1B /* rotater.c in Sources */,
+				6EB2D123A9FC2CFEAF3A341EEB88FD02 /* rule.c in Sources */,
+				7C816E78E6473CA5014A0D335CE497AC /* SLog.m in Sources */,
+				687AB48D6C71E0696A459111F9884415 /* spec.c in Sources */,
+				D3038F8A86F07C24E79C8B96B8EAF4C2 /* SunbeamLogService-dummy.m in Sources */,
+				5D984A274776752C226F7DEE844738BD /* thread.c in Sources */,
+				687BF8C1859B9819A204000048355889 /* zc_arraylist.c in Sources */,
+				30E33798CFDCA9562ECFB982FA5A029F /* zc_hashtable.c in Sources */,
+				B7F4A993C4D93E6306978C76AEA89D56 /* zc_profile.c in Sources */,
+				551A650B48F6D19D7B129682D7F01735 /* zc_util.c in Sources */,
+				1376009CFDB77EAF8437F026D9DCFE29 /* zlog-chk-conf.c in Sources */,
+				7F0029AEA94173B018380A6228471914 /* zlog.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +666,7 @@
 /* Begin XCBuildConfiguration section */
 		03CC96AA6B08466085E4C67C226C4EEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8BD9F38DE94AD5DF3D9F06338A85405 /* SunbeamLogService.xcconfig */;
+			baseConfigurationReference = 7C67E9FD89D4A8A158D6EAC76F84D711 /* SunbeamLogService.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SunbeamLogService";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -771,7 +787,7 @@
 		};
 		38FC6CC2140AC4D051B859C7527BE797 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8BD9F38DE94AD5DF3D9F06338A85405 /* SunbeamLogService.xcconfig */;
+			baseConfigurationReference = 7C67E9FD89D4A8A158D6EAC76F84D711 /* SunbeamLogService.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -866,7 +882,7 @@
 		};
 		86A2AE30710D99BA25122D7BFD58D595 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8BD9F38DE94AD5DF3D9F06338A85405 /* SunbeamLogService.xcconfig */;
+			baseConfigurationReference = 7C67E9FD89D4A8A158D6EAC76F84D711 /* SunbeamLogService.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SunbeamLogService";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -883,7 +899,7 @@
 		};
 		B47FE401F346A6CDD22B7F3DF1D49B51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8BD9F38DE94AD5DF3D9F06338A85405 /* SunbeamLogService.xcconfig */;
+			baseConfigurationReference = 7C67E9FD89D4A8A158D6EAC76F84D711 /* SunbeamLogService.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
