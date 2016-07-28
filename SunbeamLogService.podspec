@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source_files = 'SunbeamLogService/Classes/**/*'
   
   s.resource_bundles = {
-    'SunbeamLogService' => ['SunbeamLogService/Classes/SLog.bundle']
+    'SunbeamLogService' => ['SunbeamLogService/Resources/SLog.bundle']
   }
 
   s.public_header_files = 'SunbeamLogService/Classes/SunbeamLogService.h','SunbeamLogService/Classes/SLog.h'
