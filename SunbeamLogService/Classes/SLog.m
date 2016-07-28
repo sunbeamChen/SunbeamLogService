@@ -36,14 +36,11 @@
     int result;
     zlog_category_t *zc;
     
-    // 获取SLog.bundle URL
-    NSBundle* bundle = [NSBundle bundleForClass:[SLog class]];
-    NSURL* slogBundleURL = [bundle URLForResource:@"SLog" withExtension:@"bundle"];
+    // 获取zlog path
+    NSString* slogBundlePath = [[NSBundle mainBundle] pathForResource:@"SLog.bundle" ofType:nil];
     
-    // 加载SLog.bundle
-    NSBundle* slogBundle = [NSBundle bundleWithURL:slogBundleURL];
+    NSBundle* slogBundle = [NSBundle bundleWithPath:slogBundlePath];
     
-    // 获取zlog.conf文件路径
     NSString* logConfPath = [slogBundle pathForResource:@"zlog" ofType:@"conf"];
     
     // 初始化ZLog服务
