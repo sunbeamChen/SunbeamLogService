@@ -8,7 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#define SLogVerbose(format, ...) [SLog SLogVerbose:format, ##__VA_ARGS__]
 
+#define SLogDebug(format, ...) [SLog SLogDebug:format, ##__VA_ARGS__]
+
+#define SLogInfo(format, ...) [SLog SLogInfo:format, ##__VA_ARGS__]
+
+#define SLogWarn(format, ...) [SLog SLogWarn:format, ##__VA_ARGS__]
+
+#define SLogError(format, ...) [SLog SLogError:format, ##__VA_ARGS__]
 
 @interface SLog : NSObject
 
@@ -22,24 +30,38 @@
 + (int) initSLogService:(BOOL) logOn;
 
 /**
- *  Info级别日志打印
- *
- *  @param format 格式化信息
+ Verbose级别日志打印
+
+ @param format 格式化信息
  */
-+ (void) SLog:(NSString *) format, ...;
++ (void) SLogVerbose:(NSString *) format, ...;
 
 /**
- *  Warn级别日志打印
- *
- *  @param format 格式化信息
+ Debug级别日志打印
+
+ @param format 格式化信息
  */
-+ (void) SLog_Warn:(NSString *) format, ...;
++ (void) SLogDebug:(NSString *) format, ...;
 
 /**
- *  Error级别日志打印
- *
- *  @param format 格式化信息
+ Info级别日志打印
+ 
+ @param format 格式化信息
  */
-+ (void) SLog_Error:(NSString *) format, ...;
++ (void) SLogInfo:(NSString *) format, ...;
+
+/**
+ Warn级别日志打印
+ 
+ @param format 格式化信息
+ */
++ (void) SLogWarn:(NSString *) format, ...;
+
+/**
+ Error级别日志打印
+ 
+ @param format 格式化信息
+ */
++ (void) SLogError:(NSString *) format, ...;
 
 @end
