@@ -11,5 +11,6 @@
 FOUNDATION_EXPORT double SunbeamLogServiceVersionNumber;
 FOUNDATION_EXPORT const unsigned char SunbeamLogServiceVersionString[];
 
-// 对外开放接口
 #import "SLog.h"
+
+#import "SLogManager.h"

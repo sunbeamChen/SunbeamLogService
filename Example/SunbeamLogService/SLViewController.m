@@ -7,7 +7,6 @@
 //
 
 #import "SLViewController.h"
-
 #import <SunbeamLogService/SunbeamLogService.h>
 
 @interface SLViewController ()
@@ -20,7 +19,6 @@
 {
     [super viewDidLoad];
 	
-    [SLog initSLogService:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -22,67 +22,20 @@
 
 @implementation SLog
 
-+ (int) initSLogService:(BOOL) logOn
++ (void) initSLogService:(BOOL) logOn
 {
-    int result;
-    
     isLogOn = logOn;
     
     NSLog(@"\n======================\nSLog version is %@\n======================", SLOG_VERSION);
-    
-    return result;
 }
 
-+ (void) SLogVerbose:(NSString *) format, ...
++ (NSString *) getLogFilePath
 {
-    if (!isLogOn) {
-        return;
+    if ([SLogManager shareSLogManagerInstance].fileLogManager.logFileInfo) {
+        return [SLogManager shareSLogManagerInstance].fileLogManager.logFileInfo.filePath;
     }
     
-    va_list args;
-    va_start(args, format);
-    
-    va_end(args);
-}
-
-+ (void) SLogDebug:(NSString *) format, ...
-{
-    if (!isLogOn) {
-        return;
-    }
-    
-    va_list args;
-    va_start(args, format);
-    
-    va_end(args);
-}
-
-+ (void) SLogInfo:(NSString *) format, ...
-{
-    if (!isLogOn) {
-        return;
-    }
-    
-    va_list args;
-    va_start(args, format);
-    
-    va_end(args);
-}
-
-+ (void) SLogWarn:(NSString *) format, ...
-{
-    va_list args;
-    va_start(args, format);
-    
-    va_end(args);
-}
-
-+ (void) SLogError:(NSString *) format, ...
-{
-    va_list args;
-    va_start(args, format);
-    
-    va_end(args);
+    return nil;
 }
 
 @end

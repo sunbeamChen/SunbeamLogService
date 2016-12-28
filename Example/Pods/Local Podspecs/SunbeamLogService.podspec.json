@@ -21,7 +21,8 @@
   "source_files": "SunbeamLogService/Classes/**/*",
   "public_header_files": [
     "SunbeamLogService/Classes/SunbeamLogService.h",
-    "SunbeamLogService/Classes/SLog.h"
+    "SunbeamLogService/Classes/SLog.h",
+    "SunbeamLogService/Classes/SLogManager.h"
   ],
   "dependencies": {
     "CocoaLumberjack": [

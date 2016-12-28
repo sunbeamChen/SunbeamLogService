@@ -95,32 +95,6 @@
 			<key>targetProxy</key>
 			<string>1A797A13AD32FE12D9AE6A9877E799AD</string>
 		</dict>
-		<key>070EA9617C95ACD0D917EA239880898E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SLog.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>072F5227958E98E0EAD68FA70A67C670</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SConsoleLogFormatter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>07D79B36E13CAF105F5519F37C2EAD72</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -225,18 +199,19 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>119AA4E42B8DCB909882A73E902B3767</key>
+		<key>0BCEE3981F773784759134558A85869A</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>F95EB83BCB3802C796326925ECCE5050</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFileLogFormatter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Project</string>
+				</array>
+			</dict>
 		</dict>
 		<key>11A930E4868AC0E06D4841499CD8649C</key>
 		<dict>
@@ -344,19 +319,18 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>1799E9723E5E24DF234FADE57428436A</key>
+		<key>171D987709D5EB854A9965FF32F5527C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>974E25E0BB4E5334735F8269BAE0D360</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SConsoleLogFormatter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>185C5031CE31D361E9DE5A9FD843DABB</key>
 		<dict>
@@ -465,18 +439,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1AEFBF8901294D78F3334F158F840542</key>
+		<key>1BB9BB2133FA36015F758231C301A8AF</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>A1746E8EF800CB1936C437791D08D5B0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SConsoleLogManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Project</string>
+				</array>
+			</dict>
 		</dict>
 		<key>1BCE0D566E8177DBDB34435AF01B9C7D</key>
 		<dict>
@@ -562,20 +537,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>25264EC1D76F50E1A6F9D4ED163D33EF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6DF43D72872DA1051A740E948523884C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
-		</dict>
 		<key>252BF388EA78B9E0CBD4B692424F76CC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -588,6 +549,19 @@
 			<string>DDFileLogger.h</string>
 			<key>path</key>
 			<string>Classes/DDFileLogger.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2784E2D5473E6E66B81E7D695170CA87</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SLog.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -605,6 +579,13 @@
 			<string>Classes/DDASLLogger.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>287F283816C922270F897DACC88BD6F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>45BE920181BA373DC1B817DB0D6DB733</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>28B935208CFBCF39220326BEB16F96CF</key>
 		<dict>
@@ -729,20 +710,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2E2D8E2632618780F048FB9F5C14470A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A0126BAC3A52C3415B74463835B90A1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>3075A51839022E049E929D6FD10BEB72</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -753,26 +720,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>30F85942B9B9FBF8BDA5C5A6610A319C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A5767A7F05712C701C8F22C189AD477F</string>
-				<string>1799E9723E5E24DF234FADE57428436A</string>
-				<string>C0003E172F4A54B4FFC08159B2E5519B</string>
-				<string>B16137AEFC36E4929114014D484D9E09</string>
-				<string>25264EC1D76F50E1A6F9D4ED163D33EF</string>
-				<string>876C7C61EBF099AC6B126691995FF2B3</string>
-				<string>2E2D8E2632618780F048FB9F5C14470A</string>
-				<string>E89E1D7B91F2224AF01B6DB748B9AB1E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
@@ -789,21 +736,30 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>34CB3F13FBA0A552A59BC2EC99B5A969</key>
+		<key>340F3F6E169F42537669DB43398FC138</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>070EA9617C95ACD0D917EA239880898E</string>
-				<string>6B1964047C41D46FDCF94C54DEE73D6C</string>
-				<string>7BA3911687DB2670A3268451D447A98D</string>
-				<string>B89F7F4B6AB61DB7033B8F2F51704711</string>
-			</array>
+			<key>fileRef</key>
+			<string>8225D86C86B38C36131621AD03AAC212</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>34B9560466C83DEC5B9102D36A438DE7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Classes</string>
+			<string>SLogUtil.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -847,6 +803,13 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>36EAB7EDF06F1F709E67C0A2DE9D28F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4B12B1393139F6C4F20BD488BB7F96B3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>3774F311EE7CCC0C2CBEA04F5046A4C4</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -859,6 +822,20 @@
 			<string>SunbeamLogService-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>391A6DC35484F655766A4E04D1817ED7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2784E2D5473E6E66B81E7D695170CA87</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>393FC626EDD9D9E8F479CEAFE8809041</key>
 		<dict>
@@ -888,25 +865,34 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3C5754C54E82772F94D0D8CF9512EA49</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFileLogManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CAE962265AB95496193B4F89626A4B2</key>
+		<key>3BD58BDD5F9F2450AC1DE787FB71754B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6B1964047C41D46FDCF94C54DEE73D6C</string>
+			<string>87790BD45DBF76C25F04D688EE2D9E5B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Project</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3C236E4C4464472FB64F85B5EA04F8A5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6D8EEBCDFD414620199FC63E18242F98</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SunbeamLogService</string>
+			<key>path</key>
+			<string>SunbeamLogService</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3EAA44899F916B8E97F3C249223EB09D</key>
 		<dict>
@@ -950,13 +936,6 @@
 			<string>SunbeamLogService.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>41A8A58BF644CE316FE9624FF5590A1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1AEFBF8901294D78F3334F158F840542</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>43433C8B1A7305EC18FE22296215BC7C</key>
 		<dict>
@@ -1049,6 +1028,19 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>CocoaLumberjack-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>45BE920181BA373DC1B817DB0D6DB733</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SFileLogManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1182,15 +1174,28 @@
 			<key>targetProxy</key>
 			<string>C68CD4234E3162266CEF3FB25B0D8A93</string>
 		</dict>
+		<key>4E35F16E7F695ED46B054CFF3C21533F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SConsoleLogManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4F4E499F9CAD0CF294A8C53B688D3BF6</key>
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>6D27B0C11E474B60E0D06884BFECE869</string>
 			<key>buildPhases</key>
 			<array>
-				<string>9601A8FA78D36D29AF7B280C01FC61D9</string>
+				<string>D67C0716245DEABBFDD6ADEDAC3382A8</string>
 				<string>07D79B36E13CAF105F5519F37C2EAD72</string>
-				<string>30F85942B9B9FBF8BDA5C5A6610A319C</string>
+				<string>D049A049555D5C35F5E6A92694A94C6D</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -1287,19 +1292,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5A32B9A80B5AD794D38CDBC22DB880F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFileLogManagerDefault.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5A42DA6702D68F0CCC959D4858C06B83</key>
 		<dict>
 			<key>fileRef</key>
@@ -1313,13 +1305,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>5AC1155843E5B13F2499D4199713BAB1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B12B1393139F6C4F20BD488BB7F96B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>5BEFC03AEDEF8304814891FEC6458CD7</key>
 		<dict>
@@ -1347,13 +1332,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5E47B2D0B276B22A7232AFC273E49F79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C5754C54E82772F94D0D8CF9512EA49</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>60DC5B71FAA929795118E4E8CEAD7774</key>
 		<dict>
 			<key>fileRef</key>
@@ -1370,6 +1348,13 @@
 		<dict>
 			<key>fileRef</key>
 			<string>6809DFD7297CA79105D27B9A558EB75D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6180542F603826F89A44EA757FCA2DAB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7D5B29A4DC17829D1D13D5AFEA44214F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1438,19 +1423,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>6B1964047C41D46FDCF94C54DEE73D6C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SLog.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>6BFE47E986AA68CCFB2C42D47BD4F88E</key>
 		<dict>
 			<key>isa</key>
@@ -1476,16 +1448,23 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>6DF43D72872DA1051A740E948523884C</key>
+		<key>6D8EEBCDFD414620199FC63E18242F98</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>2784E2D5473E6E66B81E7D695170CA87</string>
+				<string>C49434D5F5105B128AEB240ED4B77E4F</string>
+				<string>8225D86C86B38C36131621AD03AAC212</string>
+				<string>DDF92B32FBD402765EBB404CCFE18F3D</string>
+				<string>FDC7F95A982B0C1C89903231B42B7ADF</string>
+				<string>FAFFE77235ECF654B2070868D293F050</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
 			<key>path</key>
-			<string>SFileLogManagerDefault.h</string>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1493,7 +1472,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>8569E6C766B6623B33562C49D958CC38</string>
+				<string>3C236E4C4464472FB64F85B5EA04F8A5</string>
 				<string>FF40D5807B647F6D2CE45AA0595FFFAB</string>
 			</array>
 			<key>isa</key>
@@ -1534,19 +1513,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7B1CC4A34DFC53AB0B69B61DC9869B5A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SFileLogManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7B2400A5B286047EB5D4C1DB59AD4EF9</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1569,29 +1535,23 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>7B325F5DF8ABE852A62C2E13095C294B</key>
+		<key>7B743061B78FD91BD2A1820E78BD22BF</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>DDF92B32FBD402765EBB404CCFE18F3D</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SConsoleLogFormatter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>7BA3911687DB2670A3268451D447A98D</key>
+		<key>7D5B29A4DC17829D1D13D5AFEA44214F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>SunbeamLogService.h</string>
+			<string>SConsoleLogManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1622,6 +1582,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8225D86C86B38C36131621AD03AAC212</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SLogManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1666,6 +1639,13 @@
 			<string>Pods-SunbeamLogService_Example.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>83FDFF433E542F53D0913BC9C9283279</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CDC9A88927942514E51FA3753FC35260</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>84220457318CDFA4002EBF1BEE81084D</key>
 		<dict>
@@ -1727,21 +1707,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>8569E6C766B6623B33562C49D958CC38</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>34CB3F13FBA0A552A59BC2EC99B5A969</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SunbeamLogService</string>
-			<key>path</key>
-			<string>SunbeamLogService</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>870C7A31AC55B94AFB1218E244E184D1</key>
 		<dict>
 			<key>fileRef</key>
@@ -1756,19 +1721,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>876C7C61EBF099AC6B126691995FF2B3</key>
+		<key>87790BD45DBF76C25F04D688EE2D9E5B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>070EA9617C95ACD0D917EA239880898E</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SFileLogManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>89C5C3676BB480CF61209D2C426E7E00</key>
 		<dict>
@@ -1782,6 +1746,13 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
+		<key>8D3DE41F08E5FEE1F66057F9D61AC849</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C4F965E86B6264BFC602A28DC6233628</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>8D442D32EE9159F16A08B107FCEAAEA1</key>
 		<dict>
 			<key>children</key>
@@ -1792,19 +1763,6 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90C3D9DD8F4FF424F5735D1AD18D7EB6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SFileLogFormatter.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1866,37 +1824,12 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>9601A8FA78D36D29AF7B280C01FC61D9</key>
+		<key>9780A3BC4B5BA4E3A52CD0E8E0A2E450</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D336FEC94F19975C08AB5FDF68D7118B</string>
-				<string>41A8A58BF644CE316FE9624FF5590A1B</string>
-				<string>EAFCDE29939CC8148449B5ACF3294A02</string>
-				<string>5E47B2D0B276B22A7232AFC273E49F79</string>
-				<string>DF10DFFAAB34A9CD48B73DE5BC6C0550</string>
-				<string>3CAE962265AB95496193B4F89626A4B2</string>
-				<string>5AC1155843E5B13F2499D4199713BAB1</string>
-			</array>
+			<key>fileRef</key>
+			<string>DC905347B6D0F23F225468B5709105EB</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>974E25E0BB4E5334735F8269BAE0D360</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SConsoleLogManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>98C492FBC7B05A4D38114EF284EA2CC5</key>
 		<dict>
@@ -1984,6 +1917,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A1746E8EF800CB1936C437791D08D5B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SFileLogFormatter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A287D7D9793066E323D4A82617F2357F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2004,20 +1950,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A5767A7F05712C701C8F22C189AD477F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B325F5DF8ABE852A62C2E13095C294B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
-		</dict>
 		<key>A74309BAB7F79C9030DEBDF12FD1B367</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2030,6 +1962,20 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7FB329C1AED360DB11B4A2BA225217E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FDC7F95A982B0C1C89903231B42B7ADF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>AA38987CCE5AFAB3512EC38ADD4A0F24</key>
 		<dict>
@@ -2120,19 +2066,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B16137AEFC36E4929114014D484D9E09</key>
+		<key>B0DCE68871F26160A61CABD2E3069796</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7B1CC4A34DFC53AB0B69B61DC9869B5A</string>
+			<string>C49434D5F5105B128AEB240ED4B77E4F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
+		</dict>
+		<key>B375510DAD2F0EFC280185FDA20FE895</key>
+		<dict>
+			<key>fileRef</key>
+			<string>171D987709D5EB854A9965FF32F5527C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B460C714466A87C33DE088B3480E2965</key>
 		<dict>
@@ -2173,30 +2119,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B89F7F4B6AB61DB7033B8F2F51704711</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7B325F5DF8ABE852A62C2E13095C294B</string>
-				<string>072F5227958E98E0EAD68FA70A67C670</string>
-				<string>974E25E0BB4E5334735F8269BAE0D360</string>
-				<string>1AEFBF8901294D78F3334F158F840542</string>
-				<string>119AA4E42B8DCB909882A73E902B3767</string>
-				<string>90C3D9DD8F4FF424F5735D1AD18D7EB6</string>
-				<string>7B1CC4A34DFC53AB0B69B61DC9869B5A</string>
-				<string>3C5754C54E82772F94D0D8CF9512EA49</string>
-				<string>6DF43D72872DA1051A740E948523884C</string>
-				<string>5A32B9A80B5AD794D38CDBC22DB880F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CocoaLumberjackLog</string>
-			<key>path</key>
-			<string>CocoaLumberjackLog</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B99EA77E6B8D3ED719DF0EC5ACEDD0C6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2222,6 +2144,20 @@
 			<string>Pods-SunbeamLogService_Example-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA4E3D1A9DF75F69C7C610DC29A183B3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1A0126BAC3A52C3415B74463835B90A1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>BAA08AA1CA7F13A3A4893632A436539B</key>
 		<dict>
@@ -2257,20 +2193,6 @@
 			<string>../Target Support Files/CocoaLumberjack</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0003E172F4A54B4FFC08159B2E5519B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>119AA4E42B8DCB909882A73E902B3767</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
 		</dict>
 		<key>C0FF999DF6426736742CB516146BB13C</key>
 		<dict>
@@ -2311,6 +2233,32 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>C49434D5F5105B128AEB240ED4B77E4F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SLog.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C4F965E86B6264BFC602A28DC6233628</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SLogUtil.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C68CD4234E3162266CEF3FB25B0D8A93</key>
 		<dict>
@@ -2393,6 +2341,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>CDC9A88927942514E51FA3753FC35260</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SFileLogManagerDefault.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>CE09C985BA2D5A9537405040E8EA6808</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -2466,6 +2427,28 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D049A049555D5C35F5E6A92694A94C6D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0BCEE3981F773784759134558A85869A</string>
+				<string>D7589B538E249C9CAB0D916658644781</string>
+				<string>1BB9BB2133FA36015F758231C301A8AF</string>
+				<string>3BD58BDD5F9F2450AC1DE787FB71754B</string>
+				<string>FC382D1CE12A6C6C2219F05626374DFC</string>
+				<string>391A6DC35484F655766A4E04D1817ED7</string>
+				<string>340F3F6E169F42537669DB43398FC138</string>
+				<string>DDD2913D552C6196EEEE85EEFA51AE4F</string>
+				<string>BA4E3D1A9DF75F69C7C610DC29A183B3</string>
+				<string>A7FB329C1AED360DB11B4A2BA225217E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>D1050109C833028C67A6EAC879B0032F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2493,13 +2476,6 @@
 			<string>CocoaLumberjack-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D336FEC94F19975C08AB5FDF68D7118B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>072F5227958E98E0EAD68FA70A67C670</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>D3E3D092A3FF7311A98E44BBA36FFD12</key>
 		<dict>
@@ -2633,6 +2609,27 @@
 				<string>4F4E499F9CAD0CF294A8C53B688D3BF6</string>
 			</array>
 		</dict>
+		<key>D67C0716245DEABBFDD6ADEDAC3382A8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B375510DAD2F0EFC280185FDA20FE895</string>
+				<string>6180542F603826F89A44EA757FCA2DAB</string>
+				<string>9780A3BC4B5BA4E3A52CD0E8E0A2E450</string>
+				<string>287F283816C922270F897DACC88BD6F9</string>
+				<string>83FDFF433E542F53D0913BC9C9283279</string>
+				<string>B0DCE68871F26160A61CABD2E3069796</string>
+				<string>7B743061B78FD91BD2A1820E78BD22BF</string>
+				<string>8D3DE41F08E5FEE1F66057F9D61AC849</string>
+				<string>36EAB7EDF06F1F709E67C0A2DE9D28F4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>D6C797208E0C8C89D94DAACE35BDA8E7</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2645,6 +2642,20 @@
 			<string>Pods-SunbeamLogService_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D7589B538E249C9CAB0D916658644781</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4E35F16E7F695ED46B054CFF3C21533F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Project</string>
+				</array>
+			</dict>
 		</dict>
 		<key>D94FE9D378284990DC13292E315ECD12</key>
 		<dict>
@@ -2691,6 +2702,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>DC905347B6D0F23F225468B5709105EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SFileLogFormatter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>DD6652688A3D6DDA8B5E95D213ADFBB1</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2701,6 +2725,33 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-SunbeamLogService_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DDD2913D552C6196EEEE85EEFA51AE4F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>34B9560466C83DEC5B9102D36A438DE7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Project</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DDF92B32FBD402765EBB404CCFE18F3D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SLogManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2731,13 +2782,6 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>DF10DFFAAB34A9CD48B73DE5BC6C0550</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5A32B9A80B5AD794D38CDBC22DB880F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>E284266F24541121A5400F514DD8FC84</key>
 		<dict>
@@ -2834,20 +2878,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E89E1D7B91F2224AF01B6DB748B9AB1E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7BA3911687DB2670A3268451D447A98D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>E973B0FBD48111F2CBE01BB9EAD1976C</key>
 		<dict>
 			<key>children</key>
@@ -2889,12 +2919,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EAFCDE29939CC8148449B5ACF3294A02</key>
+		<key>EBBAE5F25F2A52CA4A877256133B2E6C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>90C3D9DD8F4FF424F5735D1AD18D7EB6</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SFileLogManagerDefault.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EFA9977748BAF3F88AF1B3992223A088</key>
 		<dict>
@@ -2999,6 +3035,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>F95EB83BCB3802C796326925ECCE5050</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SConsoleLogFormatter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FAA231595555463F7A56EB9BE9E2DA89</key>
 		<dict>
 			<key>children</key>
@@ -3017,6 +3066,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>FAFFE77235ECF654B2070868D293F050</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F95EB83BCB3802C796326925ECCE5050</string>
+				<string>171D987709D5EB854A9965FF32F5527C</string>
+				<string>4E35F16E7F695ED46B054CFF3C21533F</string>
+				<string>7D5B29A4DC17829D1D13D5AFEA44214F</string>
+				<string>A1746E8EF800CB1936C437791D08D5B0</string>
+				<string>DC905347B6D0F23F225468B5709105EB</string>
+				<string>87790BD45DBF76C25F04D688EE2D9E5B</string>
+				<string>45BE920181BA373DC1B817DB0D6DB733</string>
+				<string>EBBAE5F25F2A52CA4A877256133B2E6C</string>
+				<string>CDC9A88927942514E51FA3753FC35260</string>
+				<string>34B9560466C83DEC5B9102D36A438DE7</string>
+				<string>C4F965E86B6264BFC602A28DC6233628</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CocoaLumberjackLog</string>
+			<key>path</key>
+			<string>CocoaLumberjackLog</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FBF98E8A7A1E949EF05F5E73809F02C0</key>
 		<dict>
 			<key>fileRef</key>
@@ -3031,6 +3106,20 @@
 				</array>
 			</dict>
 		</dict>
+		<key>FC382D1CE12A6C6C2219F05626374DFC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EBBAE5F25F2A52CA4A877256133B2E6C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Project</string>
+				</array>
+			</dict>
+		</dict>
 		<key>FCC723E222525CDF79054D1578CDD096</key>
 		<dict>
 			<key>children</key>
@@ -3041,6 +3130,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDC7F95A982B0C1C89903231B42B7ADF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SunbeamLogService.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

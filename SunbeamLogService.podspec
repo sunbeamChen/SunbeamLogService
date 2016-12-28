@@ -8,16 +8,8 @@ Pod::Spec.new do |s|
   s.author           = { 'sunbeamChen' => 'chenxun1990@126.com' }
   s.source           = { :git => 'https://github.com/sunbeamChen/SunbeamLogService.git', :tag => s.version.to_s }
   s.social_media_url = 'http://sunbeamchen.github.io/'
-
   s.ios.deployment_target = '7.0'
-
   s.source_files = 'SunbeamLogService/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SunbeamLogService' => ['SunbeamLogService/Assets/*']
-  # }
-
-  s.public_header_files = 'SunbeamLogService/Classes/SunbeamLogService.h','SunbeamLogService/Classes/SLog.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'SunbeamLogService/Classes/SunbeamLogService.h','SunbeamLogService/Classes/SLog.h','SunbeamLogService/Classes/SLogManager.h'
   s.dependency 'CocoaLumberjack'
 end

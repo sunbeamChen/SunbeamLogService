@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <CocoaLumberjack/CocoaLumberjack.h>
 
-@interface SConsoleLogFormatter : NSObject
+@interface SConsoleLogFormatter : NSObject <DDLogFormatter>
+
+
 
 @end

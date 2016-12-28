@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
-@interface SFileLogManagerDefault : NSObject
+@interface SFileLogManagerDefault : DDLogFileManagerDefault
+
+
 
 @end
