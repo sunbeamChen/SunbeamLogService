@@ -8,13 +8,19 @@
 
 #import "SLogManager.h"
 
+
+
 #define LOG_FILE_PATH [NSString stringWithFormat:@"%@/sherlock/log/",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]]
 
-BOOL const SAPITurnOnConsoleLog = YES;
-
-BOOL const SAPITurnOnFileLog = YES;
-
 NSTimeInterval const SAPILogFileRollingFrequency = 60 * 60 * 24 * 5;
+
+@interface SLogManager()
+
+@property (nonatomic, assign) DDLogLevel sconsoleLogLevel;
+
+@property (nonatomic, assign) DDLogLevel sfileLogLevel;
+
+@end
 
 @implementation SLogManager
 
@@ -29,56 +35,35 @@ NSTimeInterval const SAPILogFileRollingFrequency = 60 * 60 * 24 * 5;
     return sharedInstance;
 }
 
-- (instancetype)init
+/**
+ 初始化SLogManager
+ */
+- (void) initSLogManager:(BOOL) logOn
 {
-    if (self = [super init]) {
-        _consoleLogLevel = DDLogLevelInfo;
-        _fileLogLevel = DDLogLevelWarning;
-        [self initConsoleLogManager];
-        [self initFileLogManager];
+    if (logOn) {
+        _sconsoleLogLevel = DDLogLevelOff;
+#ifdef DEBUG
+        _sconsoleLogLevel = DDLogLevelVerbose;
+#endif
+    } else {
+        _sconsoleLogLevel = DDLogLevelOff;
+#ifdef DEBUG
+        _sconsoleLogLevel = DDLogLevelWarning;
+#endif
     }
-    
-    return self;
+    _sfileLogLevel = DDLogLevelWarning;
+    [self initConsoleLogManager];
+    [self initFileLogManager];
 }
 
 - (void) initConsoleLogManager
 {
-    if (_consoleLogManager != nil) {
-        _consoleLogManager = nil;
-    }
-    
-    if (SAPITurnOnConsoleLog) {
-        _consoleLogManager = [[SConsoleLogManager alloc] initSConsoleLogManager:_consoleLogLevel];
-    }
+    _consoleLogManager = [[SConsoleLogManager alloc] initSConsoleLogManager:_sconsoleLogLevel];
 }
 
 - (void) initFileLogManager
 {
-    if (_fileLogManager != nil) {
-        _fileLogManager = nil;
-    }
-    
-    if (SAPITurnOnFileLog) {
-        _fileLogManager = [[SFileLogManager alloc] initSFileLogManager:_fileLogLevel logFileDirectory:LOG_FILE_PATH rollingFrequency:SAPILogFileRollingFrequency];
-    }
-}
-
-- (void)setConsoleLogLevel:(DDLogLevel)consoleLogLevel
-{
-    if (_consoleLogLevel == consoleLogLevel) {
-        return;
-    }
-    _consoleLogLevel = consoleLogLevel;
-    [self initConsoleLogManager];
-}
-
-- (void)setFileLogLevel:(DDLogLevel)fileLogLevel
-{
-    if (_fileLogLevel == fileLogLevel) {
-        return;
-    }
-    _fileLogLevel = fileLogLevel;
-    [self initFileLogManager];
+    _fileLogManager = [[SFileLogManager alloc] initSFileLogManager:_sfileLogLevel logFileDirectory:LOG_FILE_PATH rollingFrequency:SAPILogFileRollingFrequency];
 }
 
 @end

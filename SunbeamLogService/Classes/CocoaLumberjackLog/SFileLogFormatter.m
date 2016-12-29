@@ -33,7 +33,7 @@
     NSString *dateAndTime = [self.threadUnsafeDateFormatter stringFromDate:(logMessage->_timestamp)];
     NSString *logMsg = logMessage->_message;
     
-    return [NSString stringWithFormat:@"%@ | %@ | %@ ", logLevel, dateAndTime, logMsg];
+    return [NSString stringWithFormat:@"%@ | %@ | %@ | %@ | line:%@ | %@", logLevel, dateAndTime, logMessage->_fileName, logMessage->_function, @(logMessage->_line), logMsg];
 }
 
 - (void)didAddToLogger:(id<DDLogger>)logger
@@ -51,7 +51,7 @@
 {
     if (_threadUnsafeDateFormatter == nil) {
         _threadUnsafeDateFormatter = [[NSDateFormatter alloc] init];
-        [_threadUnsafeDateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss:SSS"];
+        [_threadUnsafeDateFormatter setDateFormat:@"yyyy年MM月dd日 HH:mm:ss:SSS"];
     }
     return _threadUnsafeDateFormatter;
 }

@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "SLogManager.h"
 
+#define SLOG_VERSION @"0.1.3"
+
 #define SLogVerbose(format, ...) SLog_Verbose(format, ##__VA_ARGS__)
 
 #define SLogDebug(format, ...) SLog_Debug(format, ##__VA_ARGS__)

@@ -33,7 +33,7 @@
     NSString *dateAndTime = [self.threadUnsafeDateFormatter stringFromDate:(logMessage->_timestamp)];
     NSString *logMsg = logMessage->_message;
     
-    return [NSString stringWithFormat:@"%@ | %@ | %@ ", logLevel, dateAndTime, logMsg];
+    return [NSString stringWithFormat:@"%@ | %@ | %@ | %@ | line:%@ | %@", logLevel, dateAndTime, logMessage->_fileName, logMessage->_function, @(logMessage->_line), logMsg];
 }
 
 - (void)didAddToLogger:(id<DDLogger>)logger

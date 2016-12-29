@@ -8,14 +8,6 @@
 
 #import "SLog.h"
 
-#define SLOG_VERSION @"0.1.2"
-
-#ifdef DEBUG || _DEBUG
-    static BOOL isLogOn = YES;
-#else
-    static BOOL isLogOn = NO;
-#endif
-
 @interface SLog()
 
 @end
@@ -24,7 +16,7 @@
 
 + (void) initSLogService:(BOOL) logOn
 {
-    isLogOn = logOn;
+    [[SLogManager shareSLogManagerInstance] initSLogManager:logOn];
     
     NSLog(@"\n======================\nSLog version is %@\n======================", SLOG_VERSION);
 }

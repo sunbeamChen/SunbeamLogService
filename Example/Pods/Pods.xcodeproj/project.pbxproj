@@ -199,20 +199,6 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>0BCEE3981F773784759134558A85869A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F95EB83BCB3802C796326925ECCE5050</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
-		</dict>
 		<key>11A930E4868AC0E06D4841499CD8649C</key>
 		<dict>
 			<key>children</key>
@@ -438,20 +424,6 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BB9BB2133FA36015F758231C301A8AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A1746E8EF800CB1936C437791D08D5B0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
 		</dict>
 		<key>1BCE0D566E8177DBDB34435AF01B9C7D</key>
 		<dict>
@@ -850,6 +822,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>396E67609DB367DEFB8D72323EA65189</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A1746E8EF800CB1936C437791D08D5B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>3B788BD7BFB883684E6297BB7266537C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -864,20 +850,6 @@
 			<string>Classes/DDAssertMacros.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3BD58BDD5F9F2450AC1DE787FB71754B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>87790BD45DBF76C25F04D688EE2D9E5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
 		</dict>
 		<key>3C236E4C4464472FB64F85B5EA04F8A5</key>
 		<dict>
@@ -1174,6 +1146,20 @@
 			<key>targetProxy</key>
 			<string>C68CD4234E3162266CEF3FB25B0D8A93</string>
 		</dict>
+		<key>4D96BB8F283BA1D2001735023871A21D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F95EB83BCB3802C796326925ECCE5050</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>4E35F16E7F695ED46B054CFF3C21533F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1228,6 +1214,20 @@
 			<string>Classes/DDLog.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4FDD7A1F1AC313CE9E665DA745D32A44</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EBBAE5F25F2A52CA4A877256133B2E6C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>50B60A894D695D7403877660830021E1</key>
 		<dict>
@@ -1707,6 +1707,20 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>86B6C0F7CF37BE42EB348FEB25995992</key>
+		<dict>
+			<key>fileRef</key>
+			<string>34B9560466C83DEC5B9102D36A438DE7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>870C7A31AC55B94AFB1218E244E184D1</key>
 		<dict>
 			<key>fileRef</key>
@@ -2132,6 +2146,34 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>B9F4F857D3221F02D27F141E98B2B868</key>
+		<dict>
+			<key>fileRef</key>
+			<string>87790BD45DBF76C25F04D688EE2D9E5B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BA12F19A23FFA53BE586D2D3FEA6F872</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4E35F16E7F695ED46B054CFF3C21533F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>BA2906D8319EB0D69AE8482392D5CCBC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2433,14 +2475,14 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>0BCEE3981F773784759134558A85869A</string>
-				<string>D7589B538E249C9CAB0D916658644781</string>
-				<string>1BB9BB2133FA36015F758231C301A8AF</string>
-				<string>3BD58BDD5F9F2450AC1DE787FB71754B</string>
-				<string>FC382D1CE12A6C6C2219F05626374DFC</string>
+				<string>4D96BB8F283BA1D2001735023871A21D</string>
+				<string>BA12F19A23FFA53BE586D2D3FEA6F872</string>
+				<string>396E67609DB367DEFB8D72323EA65189</string>
+				<string>B9F4F857D3221F02D27F141E98B2B868</string>
+				<string>4FDD7A1F1AC313CE9E665DA745D32A44</string>
 				<string>391A6DC35484F655766A4E04D1817ED7</string>
 				<string>340F3F6E169F42537669DB43398FC138</string>
-				<string>DDD2913D552C6196EEEE85EEFA51AE4F</string>
+				<string>86B6C0F7CF37BE42EB348FEB25995992</string>
 				<string>BA4E3D1A9DF75F69C7C610DC29A183B3</string>
 				<string>A7FB329C1AED360DB11B4A2BA225217E</string>
 			</array>
@@ -2643,20 +2685,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D7589B538E249C9CAB0D916658644781</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E35F16E7F695ED46B054CFF3C21533F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
-		</dict>
 		<key>D94FE9D378284990DC13292E315ECD12</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -2727,20 +2755,6 @@
 			<string>Pods-SunbeamLogService_Example-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDD2913D552C6196EEEE85EEFA51AE4F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34B9560466C83DEC5B9102D36A438DE7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
-				</array>
-			</dict>
 		</dict>
 		<key>DDF92B32FBD402765EBB404CCFE18F3D</key>
 		<dict>
@@ -3103,20 +3117,6 @@
 				<key>ATTRIBUTES</key>
 				<array>
 					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FC382D1CE12A6C6C2219F05626374DFC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBBAE5F25F2A52CA4A877256133B2E6C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Project</string>
 				</array>
 			</dict>
 		</dict>

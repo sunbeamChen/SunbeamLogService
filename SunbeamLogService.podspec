@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SunbeamLogService'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A simple log for OC develop, based on ZLog.'
 
   s.homepage         = 'https://github.com/sunbeamChen/SunbeamLogService'
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'http://sunbeamchen.github.io/'
   s.ios.deployment_target = '7.0'
   s.source_files = 'SunbeamLogService/Classes/**/*'
-  s.public_header_files = 'SunbeamLogService/Classes/SunbeamLogService.h','SunbeamLogService/Classes/SLog.h','SunbeamLogService/Classes/SLogManager.h'
+  s.public_header_files = 'SunbeamLogService/Classes/**/*.h'
   s.dependency 'CocoaLumberjack'
 end

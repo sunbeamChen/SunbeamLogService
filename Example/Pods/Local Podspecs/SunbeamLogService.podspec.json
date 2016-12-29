@@ -1,6 +1,6 @@
 {
   "name": "SunbeamLogService",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A simple log for OC develop, based on ZLog.",
   "homepage": "https://github.com/sunbeamChen/SunbeamLogService",
   "license": {
@@ -12,18 +12,14 @@
   },
   "source": {
     "git": "https://github.com/sunbeamChen/SunbeamLogService.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "social_media_url": "http://sunbeamchen.github.io/",
   "platforms": {
     "ios": "7.0"
   },
   "source_files": "SunbeamLogService/Classes/**/*",
-  "public_header_files": [
-    "SunbeamLogService/Classes/SunbeamLogService.h",
-    "SunbeamLogService/Classes/SLog.h",
-    "SunbeamLogService/Classes/SLogManager.h"
-  ],
+  "public_header_files": "SunbeamLogService/Classes/**/*.h",
   "dependencies": {
     "CocoaLumberjack": [
 

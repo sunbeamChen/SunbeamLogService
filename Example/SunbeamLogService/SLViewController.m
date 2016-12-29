@@ -19,12 +19,25 @@
 {
     [super viewDidLoad];
 	
+    [SLog initSLogService:YES];
+    
+    NSLog(@"log file path : %@", [SLog getLogFilePath]);
+    
+    SLogVerbose(@"hello test %@", @"sunbeam chenxun");
+    
+    SLogDebug(@"hello test %@", @"sunbeam chenxun");
+    
+    SLogInfo(@"hello test %@", @"sunbeam chenxun");
+    
+    SLogWarn(@"hello test %@", @"sunbeam chenxun");
+    
+    SLogError(@"hello test %@", @"sunbeam chenxun");
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end

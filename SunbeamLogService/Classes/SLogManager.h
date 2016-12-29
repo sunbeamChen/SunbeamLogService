@@ -7,24 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CocoaLumberjack/CocoaLumberjack.h>
 #import "SConsoleLogManager.h"
 #import "SFileLogManager.h"
 
-#define SLog_Verbose(frmt, ...) \
-do { DDLogVerbose(frmt, ##__VA_ARGS__) } while(0)
+#define SLog_Verbose(frmt, ...) DDLogVerbose(frmt, ##__VA_ARGS__)
 
-#define SLog_Debug(frmt, ...) \
-do { DDLogDebug(frmt, ##__VA_ARGS__) } while(0)
+#define SLog_Debug(frmt, ...) DDLogDebug(frmt, ##__VA_ARGS__)
 
-#define SLog_Info(frmt, ...) \
-do { DDLogInfo(frmt, ##__VA_ARGS__) } while(0)
+#define SLog_Info(frmt, ...) DDLogInfo(frmt, ##__VA_ARGS__)
 
-#define SLog_Warn(frmt, ...) \
-do { DDLogWarn(frmt, ##__VA_ARGS__) } while(0)
+#define SLog_Warn(frmt, ...) DDLogWarn(frmt, ##__VA_ARGS__)
 
-#define SLog_Error(frmt, ...) \
-do { DDLogError(frmt, ##__VA_ARGS__) } while(0)
+#define SLog_Error(frmt, ...) DDLogError(frmt, ##__VA_ARGS__)
+
+#define LOG_LEVEL_DEF DDLogLevelVerbose
+
+#define LOG_ASYNC_ENABLED YES
 
 @interface SLogManager : NSObject
 
@@ -33,14 +31,10 @@ do { DDLogError(frmt, ##__VA_ARGS__) } while(0)
  */
 @property (nonatomic, copy, readonly) SConsoleLogManager* consoleLogManager;
 
-@property (nonatomic, assign) DDLogLevel consoleLogLevel;
-
 /**
  文件日志
  */
 @property (nonatomic, copy, readonly) SFileLogManager* fileLogManager;
-
-@property (nonatomic, assign) DDLogLevel fileLogLevel;
 
 /**
  单例
@@ -48,5 +42,10 @@ do { DDLogError(frmt, ##__VA_ARGS__) } while(0)
  @return SLogManager
  */
 + (instancetype) shareSLogManagerInstance;
+
+/**
+ 初始化SLogManager
+ */
+- (void) initSLogManager:(BOOL) logOn;
 
 @end
