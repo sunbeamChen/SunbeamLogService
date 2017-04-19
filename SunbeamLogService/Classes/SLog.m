@@ -18,7 +18,9 @@
 {
     [[SLogManager shareSLogManagerInstance] initSLogManager:logOn];
     
-    SLogVerbose(@"\n======================\nSunbeamLogService(https://github.com/sunbeamChen/SunbeamLogService) version is %@\n======================", SLOG_VERSION);
+#ifdef DEBUG
+    NSLog(@"\n======================\nSunbeamLogService(https://github.com/sunbeamChen/SunbeamLogService) version is %@\n======================", SLOG_VERSION);
+#endif
 }
 
 + (NSString *) getLogFilePath

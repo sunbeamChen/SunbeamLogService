@@ -7,6 +7,7 @@
 //
 
 #import "SFileLogFormatter.h"
+#import "SLogUtil.h"
 
 @interface SFileLogFormatter()
 
@@ -33,7 +34,7 @@
     NSString *dateAndTime = [self.threadUnsafeDateFormatter stringFromDate:(logMessage->_timestamp)];
     NSString *logMsg = logMessage->_message;
     
-    return [NSString stringWithFormat:@"%@ | %@ | %@ | %@ | line:%@ | %@", logLevel, dateAndTime, logMessage->_fileName, logMessage->_function, @(logMessage->_line), logMsg];
+    return [NSString stringWithFormat:@"%@ | %@ | %@ | %@ | %@ | %@ | line:%@ | %@", logLevel, dateAndTime, [SLogUtil getAPPVersion], [SLogUtil getAPPBuildVersion], logMessage->_fileName, logMessage->_function, @(logMessage->_line), logMsg];
 }
 
 - (void)didAddToLogger:(id<DDLogger>)logger
