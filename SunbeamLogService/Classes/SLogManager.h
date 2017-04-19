@@ -20,7 +20,13 @@
 
 #define SLog_Error(frmt, ...) DDLogError(frmt, ##__VA_ARGS__)
 
-#define LOG_LEVEL_DEF DDLogLevelVerbose
+#ifndef LOG_LEVEL_DEF
+    #define LOG_LEVEL_DEF DDLogLevelVerbose
+#endif
+
+#ifndef LOG_ASYNC_ENABLED
+    #define LOG_ASYNC_ENABLED YES
+#endif
 
 @interface SLogManager : NSObject
 
