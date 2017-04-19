@@ -22,8 +22,6 @@
 
 #define LOG_LEVEL_DEF DDLogLevelVerbose
 
-#define LOG_ASYNC_ENABLED YES
-
 @interface SLogManager : NSObject
 
 /**
