@@ -8,8 +8,6 @@
 
 #import "SLogManager.h"
 
-
-
 #define LOG_FILE_PATH [NSString stringWithFormat:@"%@/log/",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]]
 
 NSTimeInterval const SAPILogFileRollingFrequency = 60 * 60 * 24 * 7;
@@ -24,36 +22,29 @@ NSTimeInterval const SAPILogFileRollingFrequency = 60 * 60 * 24 * 7;
 
 @implementation SLogManager
 
-+ (instancetype) shareSLogManagerInstance
-{
-    static SLogManager *sharedInstance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [[SLogManager alloc] init];
-    });
-    
-    return sharedInstance;
-}
-
 /**
  初始化SLogManager
  */
-- (void) initSLogManager:(BOOL) logOn
+- (SLogManager *) initSLogManager:(BOOL) logOn
 {
-    if (logOn) {
-        _sconsoleLogLevel = DDLogLevelOff;
+    if (self = [super init]) {
+        if (logOn) {
+            _sconsoleLogLevel = DDLogLevelOff;
 #ifdef DEBUG
-        _sconsoleLogLevel = DDLogLevelVerbose;
+            _sconsoleLogLevel = DDLogLevelVerbose;
 #endif
-    } else {
-        _sconsoleLogLevel = DDLogLevelOff;
+        } else {
+            _sconsoleLogLevel = DDLogLevelOff;
 #ifdef DEBUG
-        _sconsoleLogLevel = DDLogLevelWarning;
+            _sconsoleLogLevel = DDLogLevelWarning;
 #endif
+        }
+        _sfileLogLevel = DDLogLevelWarning;
+        [self initConsoleLogManager];
+        [self initFileLogManager];
     }
-    _sfileLogLevel = DDLogLevelWarning;
-    [self initConsoleLogManager];
-    [self initFileLogManager];
+    
+    return self;
 }
 
 - (void) initConsoleLogManager

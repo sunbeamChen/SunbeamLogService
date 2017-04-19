@@ -41,15 +41,8 @@
 @property (nonatomic, copy, readonly) SFileLogManager* fileLogManager;
 
 /**
- 单例
-
- @return SLogManager
- */
-+ (instancetype) shareSLogManagerInstance;
-
-/**
  初始化SLogManager
  */
-- (void) initSLogManager:(BOOL) logOn;
+- (SLogManager *) initSLogManager:(BOOL) logOn;
 
 @end

@@ -7,6 +7,9 @@
 //
 
 #import "SLog.h"
+#import "SLogManager.h"
+
+static SLogManager* sLogManager;
 
 @interface SLog()
 
@@ -14,19 +17,25 @@
 
 @implementation SLog
 
-+ (void) initSLogService:(BOOL) logOn
++ (BOOL) initSLogService:(BOOL) logOn
 {
-    [[SLogManager shareSLogManagerInstance] initSLogManager:logOn];
+    sLogManager = [[SLogManager alloc] initSLogManager:logOn];
     
 #ifdef DEBUG
     NSLog(@"\n======================\nSunbeamLogService(https://github.com/sunbeamChen/SunbeamLogService) version is %@\n======================", SLOG_VERSION);
 #endif
+    
+    if (sLogManager) {
+        return YES;
+    } else {
+        return NO;
+    }
 }
 
 + (NSString *) getLogFilePath
 {
-    if ([SLogManager shareSLogManagerInstance].fileLogManager.logFileInfo) {
-        return [SLogManager shareSLogManagerInstance].fileLogManager.logFileInfo.filePath;
+    if (sLogManager.fileLogManager.logFileInfo) {
+        return sLogManager.fileLogManager.logFileInfo.filePath;
     }
     
     return nil;

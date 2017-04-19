@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SLogManager.h"
 
-#define SLOG_VERSION @"0.1.8"
+#define SLOG_VERSION @"0.1.9"
 
 #define SLogVerbose(format, ...) SLog_Verbose(format, ##__VA_ARGS__)
 
@@ -28,14 +27,14 @@
 *
 *  @param logOn DEBUG时日志是否开启
 *
-*  @return 初始化结果 0－成功；-1－失败
+*  @return 初始化结果 YES－成功; NO－失败;
 */
-+ (void) initSLogService:(BOOL) logOn;
++ (BOOL) initSLogService:(BOOL) logOn;
 
 /**
  获取log文件本地路径
 
- @return log文件本地路径
+ @return log文件本地路径,路径为nil或获取失败时返回nil
  */
 + (NSString *) getLogFilePath;
 
