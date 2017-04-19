@@ -21,7 +21,7 @@
 	
     [SLog initSLogService:YES];
     
-    NSLog(@"log file path : %@", [SLog getLogFilePath]);
+    SLogVerbose(@"log file path : %@", [SLog getLogFilePath]);
     
     SLogVerbose(@"hello test %@", @"sunbeam chenxun");
     

@@ -23,12 +23,52 @@
         }
         
         if (!_appName) {
-            _appName = @"Sherlock";
+            _appName = @"SunbeamLogService";
         }
     });
     
     return _appName;
     
+}
+
++ (NSString *)getAPPVersion
+{
+    static NSString* _appVersion;
+    static dispatch_once_t onceToken;
+    
+    dispatch_once(&onceToken, ^{
+        _appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+        
+        if (!_appVersion) {
+            _appVersion = [[NSProcessInfo processInfo] processName];
+        }
+        
+        if (!_appVersion) {
+            _appVersion = @"0";
+        }
+    });
+    
+    return _appVersion;
+}
+
++ (NSString *)getAPPBuildVersion
+{
+    static NSString* _appBuildVersion;
+    static dispatch_once_t onceToken;
+    
+    dispatch_once(&onceToken, ^{
+        _appBuildVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
+        
+        if (!_appBuildVersion) {
+            _appBuildVersion = [[NSProcessInfo processInfo] processName];
+        }
+        
+        if (!_appBuildVersion) {
+            _appBuildVersion = @"0";
+        }
+    });
+    
+    return _appBuildVersion;
 }
 
 @end

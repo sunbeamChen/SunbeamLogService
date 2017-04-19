@@ -12,4 +12,8 @@
 
 + (NSString *) getAppName;
 
++ (NSString *) getAPPVersion;
+
++ (NSString *) getAPPBuildVersion;
+
 @end

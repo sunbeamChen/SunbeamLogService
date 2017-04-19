@@ -10,7 +10,7 @@
 
 
 
-#define LOG_FILE_PATH [NSString stringWithFormat:@"%@/sherlock/log/",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]]
+#define LOG_FILE_PATH [NSString stringWithFormat:@"%@/log/",[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0]]
 
 NSTimeInterval const SAPILogFileRollingFrequency = 60 * 60 * 24 * 5;
 
