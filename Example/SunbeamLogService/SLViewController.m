@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	
-    [SLog initSLogService:YES];
+    [SLog initSLogService:NO];
     
     SLogVerbose(@"log file path : %@", [SLog getLogFilePath]);
     
