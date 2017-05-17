@@ -7,7 +7,7 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (3.0.0):
     - CocoaLumberjack/Default
-  - SunbeamLogService (0.1.11):
+  - SunbeamLogService (0.1.12):
     - CocoaLumberjack
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
-  SunbeamLogService: c069bbea8d15418486316a9a70ee2645c114def6
+  SunbeamLogService: 3f50edcf8f1e6789adf516fe7bdd6f14c6afdc91
 
 PODFILE CHECKSUM: 35184d9768357a1ab54f7a6fa127c0a0b2898785
 

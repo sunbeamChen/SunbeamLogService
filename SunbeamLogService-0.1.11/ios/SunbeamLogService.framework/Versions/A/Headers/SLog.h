@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define SLOG_VERSION @"0.1.12"
+#define SLOG_VERSION @"0.1.11"
 
 #define SLogVerbose(format, ...) SLog_Verbose(format, ##__VA_ARGS__)
 
@@ -25,9 +25,11 @@
 /**
 *  初始化SLog服务
 *
+*  @param logOn DEBUG时日志是否开启
+*
 *  @return 初始化结果 YES－成功; NO－失败;
 */
-+ (BOOL) initSLogService;
++ (BOOL) initSLogService:(BOOL) logOn;
 
 /**
  获取log文件本地路径
